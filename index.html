@@ -34,6 +34,7 @@
       }
       h1, h2, h3, h4, h5, h6 {
         font-weight: 300;
+        color: #FFF;
       }
       .body_wrap {
         width: 100%;
@@ -42,6 +43,18 @@
         background-size: 100% auto;
         background-repeat: no-repeat;
       }
+      .colorful {
+	background:
+		-webkit-linear-gradient(45deg, hsla(288, 97%, 43%, 1) 0%, hsla(288, 97%, 43%, 0) 70%),
+		-webkit-linear-gradient(315deg, hsla(197, 99%, 50%, 1) 10%, hsla(197, 99%, 50%, 0) 80%),
+		-webkit-linear-gradient(225deg, hsla(334, 91%, 49%, 1) 10%, hsla(334, 91%, 49%, 0) 80%),
+		-webkit-linear-gradient(135deg, hsla(354, 97%, 47%, 1) 100%, hsla(354, 97%, 47%, 0) 70%);
+	background:
+		linear-gradient(45deg, hsla(288, 97%, 43%, 1) 0%, hsla(288, 97%, 43%, 0) 70%),
+		linear-gradient(135deg, hsla(197, 99%, 50%, 1) 10%, hsla(197, 99%, 50%, 0) 80%),
+		linear-gradient(225deg, hsla(334, 91%, 49%, 1) 10%, hsla(334, 91%, 49%, 0) 80%),
+		linear-gradient(315deg, hsla(354, 97%, 47%, 1) 100%, hsla(354, 97%, 47%, 0) 70%);
+	}
     </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,8 +64,9 @@
     <![endif]-->
   </head>
   <body>
-    
-    <h1 class="text-center">Susanga video team - Comming soon </h1>
+    <div class="body_wrap colorful">
+    	<h1 class="text-center">Susanga video team - Comming soon </h1>
+    </div>
  	<script type="text/javascript">
     var cb = function() {
       var l = document.createElement('link'); l.rel = 'stylesheet';
