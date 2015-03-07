@@ -1,0 +1,276 @@
+.showcase-load {
+	height: 543px; /* Same as showcase javascript option */
+	overflow: hidden;
+}
+
+/* Container when content is shown in slider */
+.showcase{
+	position: relative;
+	margin: auto;	
+	height:543px;
+	overflow:hidden
+}
+
+/* Content */
+.showcase-content{
+    text-align: center;
+}
+.showcase-content-wrapper{
+    text-align: center;
+    width: 960px;
+    height: 543px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.showcase-onepage .showcase-content{
+    margin-bottom: 10px;
+}
+
+/* Button Wrapper */
+.showcase-button-wrapper{
+    clear: both;
+    margin-top: 10px;
+    text-align: center;
+}
+.showcase-button-wrapper span{
+    margin-right: 3px;
+    padding: 2px 5px 0px 5px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #444;
+}
+.showcase-button-wrapper span.active{
+    color: #fff;
+}
+	
+/* Thumbnails */
+.showcase-thumbnail-container { /* Used for backgrounds, no other styling!!! */
+    background: url(../images/slider_aw_bg_right.png) 0 0 repeat-y;
+}
+.showcase-thumbnail-wrapper{
+    overflow: hidden;
+}
+.showcase-thumbnail-wrapper-vertical {
+}
+.showcase-thumbnail-wrapper-vertical .showcase-thumbnail{
+    margin-bottom: 0;
+}
+
+.showcase-thumbnail-wrapper-horizontal{
+    padding: 10px;
+}
+.showcase-thumbnail-wrapper-horizontal .showcase-thumbnail{
+    margin-right: 10px;
+    width: 116px;
+}
+
+.showcase-thumbnail{
+    width: 298px;
+    height: 125px;
+    cursor: pointer;
+    position: relative;
+    background: url(../images/slider_aw_tab_line.png) 0 top no-repeat;
+}
+#showcase-thumbnail-0 {
+    background: none;
+}
+.showcase-thumbnail-content{
+    padding:22px 30px 20px 38px;
+    height:83px;
+    text-align: left;
+    color:#fff;
+    overflow:hidden;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    line-height: 1.6em;
+}
+.showcase-thumbnail-content .showcase-cat {
+    display: block;
+    font-size:12px;
+    color:#17caac;
+    margin:10px 0 0 0;
+}
+.showcase-thumbnail-content .showcase-cat .icon {
+    margin-right: 4px;
+}
+.showcase-thumbnail-content p {
+    color:#fff;
+    font-size:14px;
+}
+
+.showcase-thumbnail-cover{
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.showcase-thumbnail:hover{
+    border:none;
+}
+.showcase-thumbnail.active .showcase-thumbnail-content {
+    background: url(../images/slider_aw_tab_bg_active.png) left center no-repeat;
+}
+
+.showcase-thumbnail.active .showcase-thumbnail-cover{
+    display: none;
+}
+
+
+.showcase-thumbnail-button-backward,
+.showcase-thumbnail-button-forward{
+    padding: 0;
+    cursor: pointer;
+    height: 22px;
+}
+
+.showcase-thumbnail-button-backward{
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+.showcase-thumbnail-button-backward .showcase-thumbnail-vertical,
+.showcase-thumbnail-button-forward .showcase-thumbnail-vertical,
+.showcase-thumbnail-button-forward .showcase-thumbnail-horizontal,
+.showcase-thumbnail-button-backward .showcase-thumbnail-horizontal{
+    background-image: url(../images/slider_aw_arrows-small.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.showcase-thumbnail-button-backward .showcase-thumbnail-vertical{
+    background-position: 0 -48px;
+    margin-left: 137px;
+}
+.showcase-thumbnail-button-backward:hover .showcase-thumbnail-vertical{
+    background-position: -16px -48px;
+}
+.showcase-thumbnail-button-forward .showcase-thumbnail-vertical{
+    background-position: 0 -32px;
+    margin-left: 137px;
+}
+.showcase-thumbnail-button-forward:hover .showcase-thumbnail-vertical{
+    background-position: -16px -32px;
+}
+/* horizontal */
+.showcase-thumbnail-button-backward .showcase-thumbnail-horizontal{
+    background-position: 0 -16px;
+}
+.showcase-thumbnail-button-backward:hover .showcase-thumbnail-horizontal{
+    background-position: -16px -16px;
+}
+.showcase-thumbnail-button-forward .showcase-thumbnail-horizontal{
+    background-position: 0 0;
+}
+.showcase-thumbnail-button-forward:hover .showcase-thumbnail-horizontal{
+    background-position: -16px 0;
+}
+
+/* Hide button text */
+.showcase-thumbnail-button-forward span span,
+.showcase-thumbnail-button-backward span span{
+    display: none;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+
+    .showcase-thumbnail-container {
+        background: #000;
+    }
+
+    .showcase {
+        height: 170px;
+    }
+
+    .showcase-content img {
+        width: 300px;
+        height: auto;
+    }
+    .showcase-cat {
+        display: none;
+    }
+
+    /*slider pagination*/
+    .showcase-thumbnail-button-forward .showcase-thumbnail-horizontal,
+    .showcase-thumbnail-button-backward .showcase-thumbnail-horizontal {
+        margin-top: 20px;
+    }
+    .showcase-thumbnail-button-forward .showcase-thumbnail-horizontal{
+        background-position: -16px 0;
+    }
+    .showcase-thumbnail-button-backward .showcase-thumbnail-horizontal{
+        background-position: -16px -16px;
+    }
+
+    .showcase-thumbnail-wrapper-horizontal {
+        padding: 5px 0;
+    }
+    .showcase-thumbnail-wrapper-horizontal .showcase-thumbnail {
+        margin: 0 5px;
+        width: 130px;
+        height: 45px;
+        background: none;
+        overflow: hidden;
+    }
+
+    .showcase-thumbnail.active .showcase-thumbnail-content p {
+        color: #fff;
+    }
+    .showcase-thumbnail-content {
+        padding:0;
+        height: 45px;
+    }
+    .showcase-thumbnail-content p {
+        font-size: 12px;
+        line-height: 1.2em;
+        color: #ccc;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .showcase {
+        height: 255px;
+    }
+
+    .showcase-content img {
+        width: 450px;
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+
+    .showcase {
+        height: 412px;
+    }
+    .showcase-content img {
+        width: 728px;
+        height: auto;
+    }
+    .showcase-thumbnail{
+        width: 238px;
+        height: 100px;
+    }
+    .showcase-thumbnail-content{
+        padding:12px 15px 10px 25px;
+        height:78px;
+        line-height: 1.4em;
+    }
+    .showcase-thumbnail-content .showcase-cat {
+        margin:5px 0 0 0;
+    }
+    .showcase-thumbnail-content p {
+        font-size:13px;
+    }
+
+    .showcase-thumbnail-button-backward .showcase-thumbnail-vertical{
+        margin-left: 112px;
+    }
+    .showcase-thumbnail-button-forward .showcase-thumbnail-vertical{
+        margin-left: 112px;
+    }
+}
