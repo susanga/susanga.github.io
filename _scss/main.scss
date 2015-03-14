@@ -192,7 +192,7 @@ img {
     @include MQ(M) {
         border-bottom: none;
         border-radius: 4px 4px 0 0;
-        height: 47px;
+        height: 45px;
         @include box-shadow(0, 5px, 12px, rgba(0, 0, 0, 0.06));
     }
     @include transition(all .2s);
@@ -286,17 +286,21 @@ img {
 }
 
 .top-header .header-logo .logo-info {
-    h1, h2, h3 {
+    h1 { margin-top: 0; margin-bottom: 5px;}
+    h2, h3 {
         margin: 5px 0;
     }
 }
 .top-header .header-logo .logo-info h1 {
-    @include font-size(24px);
+    @include font-size(18px);
+    text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
 }
 .top-header .header-logo .logo-info h2 {
-    @include font-size(18px);
+    @include font-size(17px);
+    text-transform: uppercase;
+    font-weight: 600;
 }
 .top-header .header-logo .logo-info h3 {
     @include font-size(16px);
@@ -334,8 +338,8 @@ img {
     overflow: hidden;
     border-radius: 0 0 4px 4px;
     margin-bottom: 2em;
-    border:1px solid #DDD;
-    border-top:0;
+    border: 1px solid #DDD;
+    border-top: 0;
     padding: 16px;
     @include box-shadow(0, 5px, 12px, rgba(0, 0, 0, 0.06));
 }
@@ -350,7 +354,7 @@ img {
     }
 }
 
-.featured-videos h4 span { 
+.featured-videos h4 span {
     font-weight: 400;
 }
 
@@ -368,13 +372,14 @@ img {
 
 .featured-videos .videos-wrapper .featured-video {
     width:192px;
-    margin:0 10px 10px 0;
+    margin:0 0 10px 0;
     display: block;
     @include MQ(M) {
+        margin-right: 10px;
         margin-bottom: 0;
         &:last-child {
             margin-right: 0;
-        }    
+        }
     }
 }
 
@@ -398,7 +403,27 @@ img {
 .cover-video {
     width:100%;
     height: 110px;
-    border: 1px solid #ddd;
+    background: #e2e2e2;
+    line-height: 110px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+        content: "\f16a";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        color: $gray-light;
+        font-size: 20px;
+        position: absolute;
+        left: 45%;
+        top: 0;
+        right: auto;
+    }
 }
 
 .site-footer {
@@ -424,7 +449,7 @@ img {
     @include font-size(12px);
     a {
         color: $logo-color-1;
-        
+
         line-height: 1em;
         &:hover, &:focus {
             border-bottom-color:$logo-color-1;
@@ -447,7 +472,7 @@ img {
 
 /*
  * Main slider
- */ 
+ */
 .main-slider {
     width: 100%;
     display: block;
@@ -460,11 +485,119 @@ img {
 
 
 .main-slider .main-slide .video-list {
-    top:0;
-    left: 0
-    z-index: 20;
-    position:absolute;
-    width:1000px;
-    height: 425px;
-    background-image: url('../images/black_shading.png');   
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+    @include MQ(M) {
+        padding:0;
+        display: block;
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 1000px;
+        height: 425px;
+        display: block;
+        height: 0;
+        background-size: 100%;
+        padding-bottom: 42.5%;
+        background-image: url('../images/black_shading.png');
+        background-repeat: no-repeat;
+    }
+
+}
+
+.video-list h4 {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top:0;
+    span {
+        font-weight: 400;
+    }
+    @include MQ(M) {
+        display: none;
+    }
+}
+
+.main-slider .main-slide .video-list ul {
+    width:150px;
+    margin:0;
+    display: block;
+
+    @include MQ(M) {
+        width: 400px;
+        float: left;
+        display: block;
+        list-style: none;
+    }
+
+
+}
+.main-slider .main-slide .video-list .video-item {
+
+    width: 150px;
+    display: block;
+    height: 100px;
+    float: left;
+    @include MQ(M) {
+        width: 132px;
+        margin-right: 16px;
+    }
+    h5, p {
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        @include MQ(M) {
+            padding: 0 16px;
+            color: #FFF;
+        }
+    }
+    h5 {
+        margin-top: 5px;
+        @include MQ(M) {
+            margin: 0;
+        }
+        font-weight: 600;
+        @include font-size(11px);
+    }
+    p {
+        margin: 0;
+        @include font-size(11px);
+    }
+}
+.main-slider .main-slide .video-list .video-item .img-cover {
+    width: 150px;
+    height: 75px;
+    border: 1px solid #e2e2e2;
+    line-height: 75px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+        content: "\f16a";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        color: #e2e2e2;
+        font-size: 20px;
+        position: absolute;
+        left: 45%;
+        top: 0;
+        right: auto;
+    }
+    @include MQ(M) {
+        width: 132px;
+        border: 1px solid #e2e2e2;
+        float: left;
+        margin: 16px 16px 5px 16px;
+        width: 100%;
+    }
 }
