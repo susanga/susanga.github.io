@@ -110,6 +110,7 @@ body {
   }
   color: $gray-dark;
   background: $main-bg-color;
+  background: blue;
 }
 
 /* Prevent scroll on narrow devices */
@@ -164,7 +165,7 @@ img {
 
 .container {
   width: 90%;
-  max-width: 960px; // See breakpoints in css/_sass/helpers/_layout.scss
+  max-width: 960px; // See breakpoints in css/sass/helpers/_layout.scss
   margin: 0 auto;
 
   &::after { /* Clearfix */
@@ -174,16 +175,12 @@ img {
   }
 }
 
-
-div.header {
-  padding: 1em 0; 
-  border-bottom: 1px solid #ccc;
-}
-.logo {
-  width: 80px;
-  height: 80px;
+.main-container {
+  display: flex;
+  color:red;
+  flex-direction: row;
 }
 
-#showcase {
-  margin: 15px 0;
+.item {
+color:red;
 }

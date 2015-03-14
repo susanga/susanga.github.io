@@ -168,7 +168,7 @@ img {
 
 .container {
   width: 90%;
-  max-width: $M; // see breakpoints in _sass/partials/_layout.scss
+  max-width: $M; // see breakpoints in sass/partials/_layout.scss
   margin: 0 auto;
 
   &::after { /* Clearfix */
