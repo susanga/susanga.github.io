@@ -782,14 +782,16 @@ pre code {
   margin-bottom: 5px; }
 .top-header .header-logo .logo-info h2, .top-header .header-logo .logo-info h3 {
   color: #9ca6a6;
-  margin: 5px 0; }
+  margin: 5px 0;
+  text-shadow: #333 0px 1px 3px; }
 
 .top-header .header-logo .logo-info h1 {
   font-size: 18px;
   font-size: 1.125rem;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  text-shadow: #333 0px 1px 3px; }
 
 .top-header .header-logo .logo-info h2 {
   font-size: 17px;
@@ -845,7 +847,7 @@ pre code {
           flex-direction: column;
   overflow: hidden;
   border-radius: 0 0 4px 4px;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   border-top: 0;
   padding: 16px;
   -ms-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06);
@@ -965,7 +967,8 @@ pre code {
   overflow: hidden;
   display: block;
   padding: 2em 16px;
-  border-top: 1px solid #1e2123; }
+  border-top: 1px solid #1e2123;
+  margin-top: 1em; }
 
 .site-footer ul.bottom-menu {
   list-style: none;
@@ -981,12 +984,13 @@ pre code {
   text-align: center;
   font-size: 12px;
   font-size: 0.75rem;
-  color: #9ca6a6; }
+  color: #FFFFFF;
+  text-shadow: #ccc 0px 1px 6px; }
   .site-footer p a, .site-footer ul.bottom-menu li a {
-    color: #9ca6a6;
+    color: #FFFFFF;
+    text-shadow: #ccc 0px 1px 6px;
     line-height: 1em; }
     .site-footer p a:hover, .site-footer p a:focus, .site-footer ul.bottom-menu li a:hover, .site-footer ul.bottom-menu li a:focus {
-      color: #FFFFFF;
       border-bottom-color: #FFFFFF; }
 
 .site-footer ul.bottom-menu li {
@@ -1129,3 +1133,37 @@ pre code {
       float: left;
       margin: 16px 16px 5px 16px;
       width: 100%; } }
+
+/*
+ * Flex order
+ */
+.container .top-header {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1; }
+
+.container .top-menu {
+  -webkit-box-ordinal-group: 5;
+  -webkit-order: 4;
+      -ms-flex-order: 4;
+          order: 4; }
+
+.container .content-wrapper {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2; }
+
+.container .featured-videos {
+  -webkit-box-ordinal-group: 4;
+  -webkit-order: 3;
+      -ms-flex-order: 3;
+          order: 3; }
+
+@media only screen and (min-width: 768px) {
+  .container .top-header, .container .top-menu, .container .content-wrapper, .container .featured-videos {
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+        -ms-flex-order: 0;
+            order: 0; } }
