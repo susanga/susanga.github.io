@@ -855,17 +855,28 @@ pre code {
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06);
   background: url(../images/top_player_bg.png) #30323a; }
 
-.featured-videos h4 {
+.top-20-videos {
+  display: block;
+  padding: 16px;
+  border-bottom: 1px solid #eee; }
+  .top-20-videos h2 {
+    color: #000000; }
+
+.featured-videos h4, .top-20-videos h2 {
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 600;
   margin-top: 0;
   text-align: center; }
   @media only screen and (min-width: 768px) {
-    .featured-videos h4 {
+    .featured-videos h4, .top-20-videos h2 {
       text-align: left; } }
 
-.featured-videos h4 span {
+.top-20-videos h2 {
+  color: #000;
+  margin: 0 0; }
+
+.featured-videos h4 span, .top-20-videos h2 span {
   font-weight: 400;
   color: #9fa0a2; }
 

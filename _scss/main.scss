@@ -369,7 +369,17 @@ img {
     background: url(../images/top_player_bg.png) #30323a;
 }
 
-.featured-videos h4 {
+.top-20-videos {
+    display: block;
+    padding: 16px;
+    // @include box-shadow(0, 5px, 12px, rgba(0, 0, 0, 0.06));
+    border-bottom: 1px solid #eee;
+    h2 {
+        color: $color-black;
+    }
+}
+
+.featured-videos h4, .top-20-videos  h2 {
     color: $color-white;
     text-transform: uppercase;
     font-weight: 600;
@@ -380,10 +390,14 @@ img {
     }
 }
 
-.featured-videos h4 span {
+.top-20-videos  h2 {
+    color: #000;
+    margin: 0 0;
+}
+
+.featured-videos h4 span,  .top-20-videos  h2 span{
     font-weight: 400;
     color: #9fa0a2;
-
 }
 
 .featured-videos .videos-wrapper {
