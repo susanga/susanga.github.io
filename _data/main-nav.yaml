@@ -1,8 +1,8 @@
 - title: "Home" # Title/Caption of the menu item
   href: "/" # the page where it pointed 
-- title: "Live Videos" # Title/Caption of the menu item
+- title: "Live Show Videos" # Title/Caption of the menu item
   href: "/videos" # the page where it pointed 
-- title: "Live Audios"
+- title: "Live Show Audios"
   href: "/audios"
 - title: "Events"
   href: "/events"

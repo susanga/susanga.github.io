@@ -1,8 +1,4 @@
----
-layout: page
-title: Live Videos
-permalink: /videos/
----
+
 <div class="top-20-videos">
-<h2>Live <span>Vidoes</span></h2>  
+  <h2>Live <span>Vidoes</span></h2>
 </div>

@@ -1,0 +1,10 @@
+{% for item in site.data.main-videos %}
+<li class="video-item">
+  <a href="{{ item.href }}" target="_blank">
+  <div class="img-cover">
+    <img src="{{ "/assets/images/videos/" | append: item.thumb | prepend: site.baseurl | prepend: site.url }}">
+  </div>
+  <h5>{{ item.title }}</h5>
+  </a>
+</li>
+{% endfor %}

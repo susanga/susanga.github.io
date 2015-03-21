@@ -2,7 +2,18 @@
 layout: default
 ---
 <div class="post">
-  
-  {{ content }}
-  
+  <div class="post-content">
+    <h2>{{ page.title }}</h2>
+    
+    {{ content }}
+
+    <div class="share-panel">
+      {% if site.theme.show_share_buttons %}
+        {% include share-buttons.html %}
+      {% endif %}
+    </div> 
+  </div>
+  <div class="sidebar">
+    
+  </div>
 </div>
