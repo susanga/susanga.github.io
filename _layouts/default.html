@@ -60,12 +60,20 @@
   <div class="top-menu">
     <nav id="main-nav" class="cd-main-nav">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Live Videos</a></li>
-        <li><a href="#">Live Audios</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact Us</a></li>
+          {% for item in site.data.main-nav %}
+          {% assign item_url = item.href | append:"/" %}
+          {% if item_url == page.url %}
+          {% assign c = "active" %}
+          {% else %}
+          {% assign c = "" %}
+          {% endif %}
+          <li>
+            <a class="{{ c }}" 
+              href="{{ item.href | prepend: site.baseurl | prepend: site.url }}">
+              {{ item.title }}
+            </a>
+          </li>
+          {% endfor %}
       </ul>
     </nav>
   </div><!-- end top-menu -->
@@ -105,11 +113,20 @@
 </div>
 <div class="site-footer">
   <ul class="bottom-menu">
-    <li><a href="#">Events</a></li>
-    <li><a href="#">Categories</a></li>
-    <li><a href="#">Video Songs</a></li>
-    <li><a href="#">Audio Songs</a></li>
-    <li><a href="#">Contact Us</a></li>
+    {% for item in site.data.main-nav %}
+    {% assign item_url = item.href | append:"/" %}
+    {% if item_url == page.url %}
+    {% assign c = "active" %}
+    {% else %}
+    {% assign c = "" %}
+    {% endif %}
+    <li>
+      <a class="{{ c }}" 
+        href="{{ item.href | prepend: site.baseurl | prepend: site.url }}">
+        {{ item.title }}
+      </a>
+    </li>
+    {% endfor %}
   </ul>
   <p>
     Copyright &copy; Susanga Video Team, Baduraliya - {{ site.time | date: '%Y'}}.
