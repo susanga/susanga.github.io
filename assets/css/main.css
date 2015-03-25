@@ -995,6 +995,23 @@ pre code {
     width: inherit;
     height: inherit; }
 
+.cover-small {
+  width: 40px;
+  max-width: 40px;
+  min-width: 40px;
+  height: 24px;
+  background: #e2e2e2;
+  line-height: 24px;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #eee; }
+  .cover-small img {
+    width: inherit;
+    height: inherit; }
+
 .site-footer {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1231,3 +1248,70 @@ pre code {
   margin-right: 1em; }
 .author ul, .share-buttons ul {
   margin-bottom: 0; }
+
+/* video/audio list */
+.media-list-container h4 {
+  text-transform: uppercase;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #ddd;
+  margin-bottom: 0;
+  line-height: 40px;
+  background: #282a33;
+  color: #FFFFFF; }
+
+.media-list-container a.media-item-row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45px;
+  background-color: #f5f5f5;
+  padding: 0 16px;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s; }
+  .media-list-container a.media-item-row:hover, .media-list-container a.media-item-row:focus {
+    background-color: #eee; }
+  .media-list-container a.media-item-row:after {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #333333;
+    font-size: 18px;
+    position: absolute;
+    right: 16px;
+    top: 30%; }
+
+.media-list-container a.media-item-row .soft-arrow {
+  position: absolute;
+  top: 30%; }
+
+.media-list-container a.media-item-row .media-item-name {
+  padding-left: 16px;
+  font-weight: 600; }
+
+.media-list-container a.media-item-row .media-item-name, .media-item-artist {
+  padding-right: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 40px;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  color: #000; }

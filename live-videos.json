@@ -2,13 +2,13 @@
 layout: null
 ---
 {
-  "data" : [
+  "videos": [
   {% for post in site.posts %}
       {
           "title": "{{ post.title }}",
           "href": "{{ post.url }}", 
           "type": "{{ post.pageType }}"
-      }
+      }{% if forloop.last  %}{% else %},{% endif %}
   {% endfor %}
   ]
 }

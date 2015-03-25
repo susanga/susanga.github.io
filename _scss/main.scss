@@ -540,6 +540,25 @@ img {
     }
 }
 
+.cover-small {
+    width:40px;
+    max-width: 40px;
+    min-width: 40px;
+    height: 24px;
+    background: #e2e2e2;
+    line-height: 24px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #eee;
+    img { 
+        width: inherit;
+        height: inherit;
+    }
+}
+
 .site-footer {
     display: flex;
     flex-direction: column;
@@ -762,4 +781,73 @@ img {
   p { @include font-size(14px); }
   img { float:left; margin-right: 1em; }
   ul { margin-bottom: 0; }
+}
+
+/* video/audio list */
+
+.media-list-container {
+}
+
+.media-list-container h4 {
+    text-transform: uppercase;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #ddd;
+    margin-bottom: 0;
+    line-height: 40px;
+    background: #282a33;
+    color: $color-white;
+}
+
+.media-list-container a.media-item-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    height: 45px;
+    background-color: #f5f5f5;
+    padding: 0 16px;
+    text-decoration: none;
+    cursor: pointer;
+    position:relative;
+    // &:nth-child(even) {background: #CCC}
+    // &:nth-child(odd) {background: #9ca6a6}
+    border-bottom: 1px solid #ccc;
+    transition: background-color .3s;
+
+    &:hover, &:focus {
+        background-color: #eee;
+    }
+
+    &:after {
+        content: "\f105";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        color: $gray-dark;
+        font-size: 18px;
+        position: absolute;
+        right: 16px;
+        top: 30%;
+    }
+}
+.media-list-container a.media-item-row .soft-arrow {
+    position: absolute;
+    top: 30%;
+}
+.media-list-container a.media-item-row .media-item-name { 
+    padding-left: 16px; 
+    font-weight: 600;
+}
+.media-list-container a.media-item-row .media-item-name, .media-item-artist {
+    padding-right: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 40px;
+    @include font-size(13px);
+    color: #000;
+
 }
