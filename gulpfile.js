@@ -57,7 +57,8 @@ gulp.task('sass', function () {
  */
 gulp.task('watch', function () {
     gulp.watch('_scss/{,*/}*.{scss,sass}', ['sass']);
-    gulp.watch(['{,*/}*.json', '{,*/}*.html', 'assets/js/{,*/}*.js','index.html', '*.md', '_layouts/*.html', '_includes/*.html', '_posts/*'], ['jekyll-rebuild']);
+    // '*.json', '{,*/}*.html', 'assets/js/*.js'
+    gulp.watch(['index.html', '*.md', '_layouts/*.html', '_includes/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
 /**

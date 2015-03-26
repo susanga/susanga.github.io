@@ -1,0 +1,15 @@
+  <div class="videos-wrapper">
+  {% for item in site.data.featured-videos limit: 5 %}
+    <a href="{{ item.href | prepend: site.baseurl | prepend: site.url }}" class="featured-video">
+        <div class="cover-video">
+         {% if item.tumbnail %}
+            <img 
+                src="{{ "/assets/images/videos/" | append: item.tumbnail | prepend: site.baseurl | prepend: site.url }}" 
+                alt="{{ post.tumbnail_alt }}">
+          {% endif %}
+        </div>
+        <h5>{{ item.title }}</h5>
+        <p>{{ item.summary }}</p>
+    </a>
+  {% endfor %}
+  </div>

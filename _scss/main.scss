@@ -446,6 +446,7 @@ img {
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
+        flex-wrap: wrap;
     }
 }
 
@@ -454,12 +455,12 @@ img {
 }
 
 .featured-videos .videos-wrapper .featured-video, .top-20-videos .videos-wrapper .featured-video {
-    width:192px;
+    width:185px;
     margin:0 0 10px 0;
     display: block;
     @include MQ(M) {
         margin-right: 10px;
-        margin-bottom: 0;
+        margin-bottom: 10px;
         &:last-child {
             margin-right: 0;
         }
@@ -788,15 +789,48 @@ img {
 .media-list-container {
 }
 
-.media-list-container h4 {
-    text-transform: uppercase;
-    padding-left: 16px;
-    padding-right: 16px;
-    background-color: #ddd;
+.media-list-container {
     margin-bottom: 0;
-    line-height: 40px;
-    background: #282a33;
+    line-height: 40px;    
+}
+
+.media-list-container .title-bar {
     color: $color-white;
+    background: #282a33;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding:0 16px;
+}
+
+.btn-actions {
+    flex: 1;
+    ul {
+        display: block;
+        margin:0;
+        text-align: right;
+        li {
+            height: 100%;
+            display: inline-block;
+            a {
+                display: block;
+                text-transform: capitalize;
+                color: #FFF;
+                font-size: 12px;
+            }
+        }
+    }
+}
+.title-item {
+    text-transform: uppercase;
+    flex: 1;
+    h4 {
+        color: $color-white;
+    }
+
 }
 
 .media-list-container a.media-item-row {
@@ -830,7 +864,7 @@ img {
         font-size: 18px;
         position: absolute;
         right: 16px;
-        top: 30%;
+        top: 10%;
     }
 }
 .media-list-container a.media-item-row .soft-arrow {

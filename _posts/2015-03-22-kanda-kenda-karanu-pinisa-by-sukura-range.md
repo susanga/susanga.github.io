@@ -3,6 +3,7 @@ layout: post
 title:  Kanda Kenda Karanu Pinisa By Sakura range
 pageType: video
 tumbnail: 187x113.jpg
+summary: summary
 ---
 
 - Sakura Range Live In Meegahathenna - 2014.07.26

@@ -10,12 +10,23 @@ permalink: /videos/
     {% include fetch-top-20-videos.html selector = 'video' %}  
   </div>
 </div>
-<div class="media-list-container"  ng-controller="VideoController as vc">
-  <h4>Video archive</h4>
-  <a class="media-item-row" ng-href="{{ prepend: site.baseurl | prepend: site.url }}[[video.href]]" ng-repeat="video in vc.videos">
+<div class="media-list-container"  ng-controller="VideoController">
+
+  <div class="title-bar">
+    <div class="title-item">
+      <h4>Video archive</h4>
+    </div>
+    <div class="btn-actions">
+      <pager ng-show="filteredVideos > 10" total-items="numPages()" ng-model="currentPage"></pager>
+    </div>
+  </div>
+
+  <a class="media-item-row" ng-href="{{ prepend: site.baseurl | prepend: site.url }}[[video.href]]" ng-repeat="video in filteredVideos">
     <div class="cover-small"></div>
     <div class="media-item-name">[[ video.title ]]</div>
     <div class="media-item-artist">[[ video.artist ]]</div>
   </a>
+
+
 </div>
 

@@ -1,19 +1,33 @@
 'use strict';
 
-var app = angular.module('susanga', [], function($interpolateProvider) {
+var app = angular.module('susanga', ['ui.bootstrap'], function($interpolateProvider) {
   $interpolateProvider.startSymbol('[[');
   $interpolateProvider.endSymbol(']]');
 });
 
-app.controller('VideoController', function ($http) {
+app.controller('VideoController', function ($http, $scope) {
 
-  var self = this;
+ 
+  $scope.filteredVideos = []
+   ,$scope.currentPage = 1
+  ,$scope.numPerPage = 10
+  ,$scope.maxSize = 5;
 
-  self.greetings = 'Hello world 2012'
+  $scope.videos = [];
 
-  self.videos = [];
   $http.get('/live-videos.json').success(function(data) {
-    self.videos = data.videos;
-  });
+    $scope.videos = data.videos;
 
+    $scope.numPages = function () {
+      return Math.ceil($scope.videos.length / $scope.numPerPage);
+    };
+
+    $scope.$watch('currentPage + numPerPage', function() {
+    var begin = (($scope.currentPage - 1) * $scope.numPerPage)
+    , end = begin + $scope.numPerPage;
+    
+    $scope.filteredVideos = $scope.videos.slice(begin, end);
+  });
+  
+  });
 });
