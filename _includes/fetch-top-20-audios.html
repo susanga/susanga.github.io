@@ -1,0 +1,21 @@
+{% assign selector = include.selector %}
+{% assign isFound = false %}
+{% for post in site.posts limit: 20 %}
+  {% if post.pageType != null and post.pageType != empty and post.pageType contains selector %}           
+    {% assign isFound = true %}
+        <a class="featured-video" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+        <div class="cover-video">
+          {% if post.tumbnail %}
+            <img 
+                src="{{ "/assets/images/videos/" | append: post.tumbnail | prepend: site.baseurl | prepend: site.url }}" 
+                alt="{{ post.tumbnail_alt }}">
+          {% endif %}
+        </div>
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.summary }}</p>
+        </a>
+  {% endif %}
+{% endfor %}  
+{% if isFound == false %}
+  <p>Oops not item found.</p>
+{% endif %} 

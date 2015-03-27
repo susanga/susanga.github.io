@@ -386,13 +386,16 @@ h3, .h3 {
   font-size: 21px; }
 
 h4, .h4 {
-  font-size: 15px; }
+  font-size: 15px;
+  font-weight: 600; }
 
 h5, .h5 {
-  font-size: 12px; }
+  font-size: 12px;
+  font-weight: 600; }
 
 h6, .h6 {
-  font-size: 11px; }
+  font-size: 11px;
+  font-weight: 600; }
 
 /*------------------------------------*\
     #TYPOGRAPHY-STRONG
@@ -625,7 +628,8 @@ pre code {
   display: flex;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  overflow: hidden; }
   .container::after {
     /* Clearfix */
     content: '';
@@ -789,17 +793,12 @@ pre code {
           flex-direction: column;
   overflow: hidden;
   display: block;
-  min-height: 100px;
+  height: 100%;
+  width: 100%;
   background: #FFFFFF;
   -ms-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06);
   -o-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06);
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06); }
-  @media only screen and (min-width: 768px) {
-    .content-wrapper {
-      min-height: 400px; } }
-  @media only screen and (min-width: 1000px) {
-    .content-wrapper {
-      min-height: 600px; } }
 
 .content-wrapper .post {
   width: 100%;
@@ -823,8 +822,7 @@ pre code {
           align-content: stretch;
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
-          align-items: stretch;
-  height: 100vh; }
+          align-items: stretch; }
 
 .video-frame {
   padding: 10px 0 16px 0; }
@@ -1360,3 +1358,13 @@ pre code {
   font-size: 13px;
   font-size: 0.8125rem;
   color: #000; }
+
+.album-image {
+  margin: 0 auto;
+  text-align: center;
+  padding: 16px 0 16px 0;
+  border-bottom: 1px solid #eee; }
+
+.album-image img {
+  text-align: center;
+  margin: 0 auto; }

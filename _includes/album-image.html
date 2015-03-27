@@ -1,0 +1,8 @@
+<div class="album-image">
+  {% assign imgSrc = include.imgSource %}
+  {% assign imgAlt = include.imgAlt %}
+
+  <img 
+  src="{{ "/assets/images/audios/" | append: imgSrc | prepend: site.baseurl | prepend: site.url }}" 
+  alt="{{ imgAlt }}">
+</div>

@@ -1,0 +1,29 @@
+---
+layout: page
+title: Live Audios
+permalink: /audios/
+---
+
+<div class="top-20-videos">
+  <h2>Live <span>Audios</span></h2>
+  <div class="videos-wrapper">
+    {% include fetch-top-20-videos.html selector = 'audio' %}  
+  </div>
+</div>
+<div class="media-list-container"  ng-controller="AudioController">
+
+  <div class="title-bar">
+    <div class="title-item">
+      <h4>Audio archive</h4>
+    </div>
+  </div>
+
+  <a class="media-item-row" ng-href="{{ prepend: site.baseurl | prepend: site.url }}[[audio.href]]" ng-repeat="audio in audios">
+    <div class="cover-small"></div>
+    <div class="media-item-name">[[ audio.title ]]</div>
+    <div class="media-item-artist">[[ audio.artist ]]</div>
+  </a>
+
+
+</div>
+

@@ -31,3 +31,14 @@ app.controller('VideoController', function ($http, $scope) {
   
   });
 });
+
+app.controller('AudioController', function ($http, $scope) {
+
+ 
+  $scope.audios = [];
+
+  $http.get('/live-audios.json').success(function(data) {
+    $scope.audios = data.audios;
+  });
+  
+});
