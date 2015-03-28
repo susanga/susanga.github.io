@@ -5,9 +5,9 @@
     {% assign isFound = true %}
         <a class="featured-video" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
         <div class="cover-video">
-          {% if post.tumbnail %}
+          {% if post.thumbnail %}
             <img 
-                src="{{ "/assets/images/videos/" | append: post.tumbnail | prepend: site.baseurl | prepend: site.url }}" 
+                src="{{ "/assets/images/videos/" | append: post.thumbnail | prepend: site.baseurl | prepend: site.url }}" 
                 alt="{{ post.tumbnail_alt }}">
           {% endif %}
         </div>
