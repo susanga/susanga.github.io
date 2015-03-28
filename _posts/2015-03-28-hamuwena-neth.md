@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hamuwana neth"
+title: "Hamuwana neth - Kaveesha Kaviraj"
 pageType: video
 thumbnail: Hamuwana-neth.jpg
 thumbnailSmall: 80x44.jpg
