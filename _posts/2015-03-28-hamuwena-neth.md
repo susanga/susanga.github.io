@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Hamuwena neth"
+title: "Hamuwana neth - Kaveesha Kaviraj"
 pageType: video
 thumbnail: Hamuwana-neth.jpg
 thumbnailSmall: 80x44.jpg
-summary: Kavisha Kaviraj
+summary: Kaveesha Kaviraj
 ---
 
-{% include video.html video = '<iframe src="https://www.youtube.com/embed/0C8-YsGFkv0?rel=0" frameborder="0" allowfullscreen></iframe>' %} 
+{% include video.html video = '<iframe width="420" height="315" src="https://www.youtube.com/embed/6mJHuRxtpWk" frameborder="0" allowfullscreen></iframe>' %} 
