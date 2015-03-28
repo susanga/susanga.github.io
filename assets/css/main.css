@@ -1368,3 +1368,72 @@ pre code {
 .album-image img {
   text-align: center;
   margin: 0 auto; }
+
+.toolbar-actions {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  padding: 16px;
+  background-color: #282a33; }
+
+.toolbar-actions .toolbar-item {
+  padding-right: 5px; }
+
+.toolbar-actions .toolbar-item.toolbar-title {
+  padding-right: 16px; }
+  .toolbar-actions .toolbar-item.toolbar-title h4 {
+    text-transform: uppercase;
+    color: #FFFFFF; }
+
+.toolbar-item input {
+  height: 29px; }
+  .toolbar-item input:focus {
+    box-shadow: none;
+    border-color: #FFFFFF; }
+
+.paginate-toolbar-item {
+  height: 29px; }
+
+ul.pagination {
+  margin: 0;
+  padding: 0;
+  height: 29px; }
+
+ul.pagination li a, ul.pagination li span {
+  background-color: #0E111F;
+  border-color: #262e54; }
+  ul.pagination li a:hover, ul.pagination li a:focus, ul.pagination li a:active, ul.pagination li span:hover, ul.pagination li span:focus, ul.pagination li span:active {
+    background-color: #051c31;
+    border-color: #0a3a64;
+    color: #FFFFFF; }
+ul.pagination li.disabled a, ul.pagination li.disabled span {
+  color: #777;
+  background-color: #0E111F;
+  border-color: #161b31;
+  cursor: not-allowed; }
+  ul.pagination li.disabled a:hover, ul.pagination li.disabled a:focus, ul.pagination li.disabled a:active, ul.pagination li.disabled span:hover, ul.pagination li.disabled span:focus, ul.pagination li.disabled span:active {
+    background-color: #284158;
+    border-color: #304d69; }
+ul.pagination li.active a, ul.pagination li.active span {
+  color: #777;
+  background-color: #0A375F;
+  border-color: #082a48; }
+  ul.pagination li.active a:hover, ul.pagination li.active a:focus, ul.pagination li.active a:active, ul.pagination li.active span:hover, ul.pagination li.active span:focus, ul.pagination li.active span:active {
+    background-color: #051c31;
+    border-color: #082a48; }

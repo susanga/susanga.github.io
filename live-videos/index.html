@@ -12,19 +12,26 @@ permalink: /videos/
 </div>
 <div class="media-list-container"  ng-controller="VideoController">
 
-  <div class="title-bar">
-    <div class="title-item">
-      <h4>Video archive</h4>
+  <div class="toolbar-actions">
+    <div class="toolbar-item toolbar-title">
+       <h4>Video archive</h4>
     </div>
-    <div class="btn-actions">
-      <pager ng-show="filteredVideos > 10" total-items="numPages()" ng-model="currentPage"></pager>
+    <div class="toolbar-item">
+      <input type="text" ng-model="search" placeholder="Filter songs" ng-change="filter()"  class="form-control input-sm" />
+    </div>
+    <div class="toolbar-item paginate-toolbar-item" ng-show="filteredItems > 0 && list.length > entryLimit ">
+      <pagination class="pagination-sm" total-items="filteredItems" items-per-page="entryLimit" 
+        ng-model="currentPage" ng-change="pageChanged()"  previous-text="&lsaquo;" next-text="&rsaquo;"></pagination>
     </div>
   </div>
-
-  <a class="media-item-row" ng-href="{{ prepend: site.baseurl | prepend: site.url }}[[video.href]]" ng-repeat="video in filteredVideos">
+      
+  <a 
+      class="media-item-row" 
+      ng-href="{{ prepend: site.baseurl | prepend: site.url }}[[video.href]]"
+      ng-repeat="data in filtered = (list | filter:search | orderBy : predicate :reverse) | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
     <div class="cover-small"></div>
-    <div class="media-item-name">[[ video.title ]]</div>
-    <div class="media-item-artist">[[ video.artist ]]</div>
+    <div class="media-item-name">[[ data.title ]]</div>
+    <div class="media-item-artist">[[ data.artist ]]</div>
   </a>
 
 
