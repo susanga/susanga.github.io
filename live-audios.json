@@ -3,14 +3,14 @@ layout: null
 ---
 {
   "audios": [
-  {% for post in site.posts %} {% if post.pageType != null and post.pageType != empty and post.pageType contains 'audio' %}
+   {% for post in site.posts %}
+    {% if post.pageType != null and post.pageType != empty and post.pageType contains 'audio' %}           
       {
           "title": "{{ post.title }}",
           "href": "{{ post.url }}", 
           "type": "{{ post.pageType }}"
-      }{% if forloop.last  %}{% else %}
-      
-      {% endif %}
-  {% endif %}{% endfor %}
+      }{% if forloop.last  %}{% else %},{% endif %}
+  {% endif %}
+  {% endfor %}
   ]
 }
