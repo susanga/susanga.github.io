@@ -9,7 +9,7 @@ summary: FB LIVE IN KALAWANA
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at mi lobortis, gravida justo a, commodo elit. Quisque ut justo sit amet erat sodales bibendum sed ac ex.
 
-{% include album-image.html imgSource ='450x500.gif' %}
+{% include album-image.html imgSource ='Flashback-Kalawana-2013.jpg' %}
 
 ### Track list 
 
