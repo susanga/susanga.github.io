@@ -2,7 +2,8 @@
 layout: post
 title:  Wati wati avidina mage punchi putha 
 pageType: video
-tumbnail: 187x113.jpg
+thumbnail: 187x113.jpg
+thumbnailSmall: 80x44.jpg
 summary: summary
 ---
 
