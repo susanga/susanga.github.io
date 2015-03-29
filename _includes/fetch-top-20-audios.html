@@ -3,11 +3,11 @@
 {% for post in site.posts limit: 20 %}
   {% if post.pageType != null and post.pageType != empty and post.pageType contains selector %}           
     {% assign isFound = true %}
-        <a class="featured-video" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-        <div class="cover-video">
+        <a class="audio-item" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+        <div class="cover-audio">
           {% if post.thumbnail %}
             <img 
-                src="{{ "/assets/images/videos/" | append: post.thumbnail | prepend: site.baseurl | prepend: site.url }}" 
+                src="{{ "/assets/images/audios/" | append: post.thumbnail | prepend: site.baseurl | prepend: site.url }}" 
                 alt="{{ post.tumbnail_alt }}">
           {% endif %}
         </div>
