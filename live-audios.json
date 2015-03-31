@@ -1,21 +1,15 @@
 ---
 layout: null
 ---
-{% assign audios = [] %}
-{% for post in site.posts %}
-{% if post.pageType != null and post.pageType != empty and post.pageType contains 'audio' %}
-{% endif %}
-{% endfor %}
-// {
-//   "audios": [
-//    {% for post in site.posts %}
-//     {% if post.pageType != null and post.pageType != empty and post.pageType contains 'audio' %}           
-//       {
-//           "title": "{{ post.title }}",
-//           "href": "{{ post.url }}", 
-//           "type": "{{ post.pageType }}"
-//       }{% if forloop.last  %}{% else %},{% endif %}
-//   {% endif %}
-//   {% endfor %}
-//   ]
-// }
+{
+  "audios": [
+  {% assign posts = (site.posts | where: "pageType" , "audio") %}
+   {% for post in posts %}
+      {
+          "title": "{{ post.title }}",
+          "href": "{{ post.url }}", 
+          "type": "{{ post.pageType }}"
+      }{% if forloop.last  %}{% else %},{% endif %}
+  {% endfor %}
+  ]
+}
