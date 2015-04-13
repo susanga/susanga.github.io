@@ -3,7 +3,7 @@ layout: post
 title: "FEEDBACK LIVE IN WEERAVILA 2015"
 pageType: audio
 thumbnail: 140x210/Feedback-Weeravila-2015.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Feedback-Weeravila-2015.jpg
 summary: FEEDBACK LIVE IN WEERAVILA 
 ---
 
