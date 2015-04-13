@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Sample audio album"
+title: "MG WITH OK LIVE IN BADURALIA 2014"
 pageType: audio
 thumbnail: 187x113.jpg
 thumbnailSmall: 80x44.jpg
-summary: summary
+summary: MG WITH OK LIVE IN BADURALIA
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at mi lobortis, gravida justo a, commodo elit. Quisque ut justo sit amet erat sodales bibendum sed ac ex.
