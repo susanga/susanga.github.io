@@ -14,17 +14,53 @@ summary: ALL RIGHT LIVE IN DODANGODA
 ### Track list 
 
 
-- [track - 1 ]()
-- [track - 2 ](#)
-- [track - 3 ](#)
-- [track - 4 ](#)
-- [track - 5 ](#)
-- [track - 6 ](#)
-- [track - 1 ](#)
-- [track - 2 ](#)
-- [track - 3 ](#)
-- [track - 4 ](#)
-- [track - 5 ](#)
-- [track - 6 ](#)
+- 01 - ALL RIGHT STYLE
+- 02 - BUDU TATHTHE 
+- 03 - TERE BINA 
+- 04 - WEN WENNANAM 
+- 05 - LUNUVILA PARE 
+- 06 - MAN THANIKADA 
+- 07 - ENGLISH SONG 
+- 08 - AMMAWARUNE 
+- 09 - KADAMANDIYE 
+- 10 - HONEY BUNNY 
+- 11 - RING IN TONE NONSTOP 
+- 12 - PODDAK KATA 
+- 13 - GANGNAM STYLE 
+- 14 - WATAPITA 
+- 15 - KAWADI  
+- 16 - SUKURUTTHAN 
+- 17 - API SANTHOSEN 
+- 18 - TEMIL SONG  
+- 19 - PANJAB MIX NONSTOP 
+- 20 - RA HEENE 
+- 21 - NONSTOP NEW STYLE  
+- 22 - DURA YANNA 
+- 23 - MAA AHASE 
+- 24 - NUMBE SITHA 
+- 25 - NISANSALA SANDAK 
+- 26 - MAYA
+- 27 - BOL PINI
+- 28 - DINEKA ANDURE
+- 29 - SENEHASE MUTTIYE
+- 30 - SIWU AKURAKI
+- 31 - SINNAKARA
+- 32 - ADARE HITHENAWA
+- 33 - SITHA MAGE
+- 34 - MATA HEENAYAK
+- 35 - NUWARA ELIYE
+- 36 - PAYANA SANDE
+- 37 - NELUM VILEN
+- 38 - NATHI BARI
+- 39 - EA NEELA
+- 40 - NADEEKA
+- 41 - MAMA KU KURU
+- 42 - TERE BINA
+- 43 - INGI BINGI
+- 44 - VAADA MAAPPILLEY
+- 45 - DANGAKARA
+- 46 - APADI PODE PODE
+- 47 - END NONSTOP 
+
 
 [DOWNLOAD FULL ALBUM ](http://www.mediafire.com/download/eln55p7hjcyhb5f/ALL_RIGHT_LIVE_IN_DODANGODA_2013.rar){:target="_blank"}
