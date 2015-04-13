@@ -2,7 +2,7 @@
 layout: post
 title: "ALL RIGHT LIVE IN DODANGODA 2013"
 pageType: audio
-thumbnail: 140x210/sample-140x210.png
+thumbnail: 140x210/All-Right-Dodangoda-2013.png
 thumbnailSmall: 80x44.jpg
 summary: ALL RIGHT LIVE IN DODANGODA
 ---
