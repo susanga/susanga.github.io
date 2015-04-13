@@ -2,7 +2,7 @@
 layout: post
 title: "SAHARA FLASH LIVE IN DEHIGAHAVITA 2014"
 pageType: audio
-thumbnail: 140x210Sahara-Flash-Dehegahavita-2014.jpg
+thumbnail: 140x210/Sahara-Flash-Dehegahavita-2014.jpg
 thumbnailSmall: 80x44.jpg
 summary: SAHARA FLASH LIVE IN DEHIGAHAVITA
 ---
