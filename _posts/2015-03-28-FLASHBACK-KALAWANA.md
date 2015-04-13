@@ -2,7 +2,7 @@
 layout: post
 title: "FLASHBACK LIVE IN KALAWANA 2013"
 pageType: audio
-thumbnail: 140x210/sample-140x210.png
+thumbnail: 140x210/Flashback-Kalawana-2013.jpg
 thumbnailSmall: 80x44.jpg
 summary: FLASHBACK LIVE IN KALAWANA
 ---
