@@ -2,7 +2,7 @@
 layout: post
 title: "SUNFLOWER LIVE IN UDUGAMA 2013"
 pageType: audio
-thumbnail: 187x113.jpg
+thumbnail: 140x210/Sunflower-Udugama-2014.jpg
 thumbnailSmall: 80x44.jpg
 summary: SUNFLOWER LIVE IN UDUGAMA
 ---
