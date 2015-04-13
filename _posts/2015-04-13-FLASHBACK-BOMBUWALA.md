@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sample audio album"
+title: "FLASHBACK LIVE IN BOMBUWALA 2015"
 pageType: audio
 thumbnail: 187x113.jpg
 thumbnailSmall: 80x44.jpg
