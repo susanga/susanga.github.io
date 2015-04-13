@@ -13,9 +13,7 @@ summary: PURPLE RANGE LIVE IN GALLE
 
 ### Track list 
 
-#### Part 1
-
-- 01 - KIRI  ITHIREWA(#)
+- 01 - KIRI  ITHIREWA
 - [track - 2 ](#)
 - [track - 3 ](#)
 - [track - 4 ](#)
