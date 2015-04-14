@@ -3,7 +3,7 @@ layout: post
 title: "Voice Factory"
 pageType: video
 thumbnail: Voice-factory.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Voice-factory.jpg
 summary: Sakura Range
 ---
 
