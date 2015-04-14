@@ -1078,9 +1078,35 @@ ul.pagination li {
 }
 
 .service-content .service-content-row {
-    padding-bottom: 16px;
-    overflow: hidden;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
 }
 
-.service-content-img-left { float: left; padding: 10px;}
-.service-content-img-right { float: right; padding: 10px;}
+.service-content .service-content-row .service-sidebar-coloumn {
+    width: 150px;
+}
+
+
+.service-content .service-content-row .service-detail-coloumn {
+    flex: 1;
+    width: 100%;
+}
+
+.service-right-img, .service-left-img {
+    padding: 10px;
+}
+.service-right-img {
+    @include MQ(M) {
+        padding: 20px 0px 20px 20px;
+    }
+}
+.service-left-img {
+    @include MQ(M) {
+        padding: 20px 20px 20px 0;
+    }
+}
+
