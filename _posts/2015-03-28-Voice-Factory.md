@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Voice Factory"
+title: "Voice Factory - Sakura Range"
 pageType: video
 thumbnail: Voice-factory.jpg
 thumbnailSmall: 80x44/Voice-factory.jpg
