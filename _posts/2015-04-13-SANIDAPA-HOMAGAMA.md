@@ -13,7 +13,7 @@ summary: SANIDAPA LIVE IN HOMAGAMA
 
 ### Track list 
 
-<strong>
+
 
 SANIDAPA
 
@@ -129,4 +129,3 @@ SANIDAPA
 
 -   66 - END NONSTOP
 
-</strong>
