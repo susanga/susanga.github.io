@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Wati wati avidina mage punchi putha 
+title:  Wati wati avidina - Sathuta Suranga
 pageType: video
 thumbnail: Wati-wati.jpg
 thumbnailSmall: 80x44/Wati-wati.jpg
