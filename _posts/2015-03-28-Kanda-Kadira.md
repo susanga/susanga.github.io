@@ -3,7 +3,7 @@ layout: post
 title: "Kanda Kadira"
 pageType: video
 thumbnail: Kanda-kadira.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Kanda-kadira.jpg
 summary: Parpal Range 
 ---
 
