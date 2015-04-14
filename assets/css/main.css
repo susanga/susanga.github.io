@@ -829,9 +829,9 @@ pre code {
   padding: 10px 0 16px 0; }
 
 .content-wrapper .post .post-content {
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -webkit-flex: 1 100%;
+      -ms-flex: 1 100%;
+          flex: 1 100%;
   padding: 16px; }
 
 .content-wrapper .post .post-content:first-child h2 {
@@ -1513,3 +1513,55 @@ ul.pagination li.active a, ul.pagination li.active span {
   .cover-audio img {
     width: inherit;
     height: inherit; }
+
+/*
+ * partiner section
+ */
+.partner-secton .partners {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1000px;
+  padding: 1em 0 0 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  .partner-secton .partners::after {
+    /* Clearfix */
+    content: '';
+    display: table;
+    clear: both; }
+  @media only screen and (min-width: 768px) {
+    .partner-secton .partners {
+      padding: 1em 0 2em 0; } }
+
+.service-content {
+  padding: 0 16px;
+  overflow: hidden; }
+
+.service-content .service-content-row {
+  padding-bottom: 16px;
+  overflow: hidden; }
+
+.service-content-img-left {
+  float: left;
+  padding: 10px; }
+
+.service-content-img-right {
+  float: right;
+  padding: 10px; }

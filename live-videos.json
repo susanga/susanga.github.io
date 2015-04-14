@@ -8,7 +8,8 @@ layout: null
       {
           "title": "{{ post.title }}",
           "href": "{{ post.url }}", 
-          "type": "{{ post.pageType }}"
+          "type": "{{ post.pageType }}",
+          "thumbnailSmall": "{{ post.thumbnailSmall }}"
       }{% if forloop.last  %}{% else %},{% endif %}
   {% endfor %}
   ]
