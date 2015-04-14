@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sanda Renu"
+title: "Sanda Renu - Prasanga & Sashika"
 pageType: video
 thumbnail: sanda-renu-athi-reka.jpg
 thumbnailSmall: 80x44/sanda-renu-athi-reka.jpg
