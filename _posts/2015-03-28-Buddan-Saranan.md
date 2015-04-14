@@ -3,7 +3,7 @@ layout: post
 title: "Buddan Saranan"
 pageType: video
 thumbnail: Buddan-saranana.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Buddan-saranana.jpg
 summary: Eliyas beg
 ---
 
