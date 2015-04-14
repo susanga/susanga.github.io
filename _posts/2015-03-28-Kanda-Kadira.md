@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kanda Kadira"
+title: "Kanda Kadira - Purpal Range"
 pageType: video
 thumbnail: Kanda-kadira.jpg
 thumbnailSmall: 80x44/Kanda-kadira.jpg
