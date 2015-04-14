@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Me Sinhala"
+title: "Me Sinhala - Oggve Tharanga"
 pageType: video
 thumbnail: Me-singhala-apge-ratayi.jpg
 thumbnailSmall: 80x44/Me-singhala-apge-ratayi.jpg
