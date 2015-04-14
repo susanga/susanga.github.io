@@ -3,7 +3,7 @@ layout: post
 title: "Dewena Duka"
 pageType: video
 thumbnail: Dewena-duka.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Dewena-duka.jpg
 summary: Nadeera Nonis
 ---
 
