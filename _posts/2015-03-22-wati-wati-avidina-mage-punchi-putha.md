@@ -7,4 +7,4 @@ thumbnailSmall: 80x44.jpg
 summary: summary
 ---
 
-{% include video.html video = '<iframe src="https://www.youtube.com/embed/J2Cigzy1aPg?rel=0" frameborder="0" allowfullscreen></iframe>' %} 
+{% include video.html video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/DeUxwkagUiE" frameborder="0" allowfullscreen></iframe>' %} 
