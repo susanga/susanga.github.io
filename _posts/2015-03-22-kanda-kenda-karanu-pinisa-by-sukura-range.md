@@ -7,8 +7,6 @@ thumbnailSmall: 80x44.jpg
 summary: summary
 ---
 
-- Sakura Range Live In Meegahathenna - 2014.07.26
-
 - Live Videography Susanga Video Team SVT
 
 - Baduraliya...........
