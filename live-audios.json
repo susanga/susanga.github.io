@@ -7,7 +7,7 @@ layout: null
    {% for post in posts %}
       {
           "title": "{{ post.title }}",
-          "href": "{{ post.url }}", 
+          "href": "{{ post.url | prepend: site.baseurl | prepend: site.url }}", 
           "type": "{{ post.pageType }}",
           "thumbnailSmall": "{{ post.thumbnailSmall }}"
       }{% if forloop.last  %}{% else %},{% endif %}

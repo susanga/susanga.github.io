@@ -375,8 +375,10 @@ img {
 }
 
 .content-wrapper .post .post-content {
-    flex: 1 100%;
+    flex: 1;
     padding: 16px;
+
+    min-width: 320px;
 
 }
 
@@ -1072,6 +1074,11 @@ ul.pagination li {
   align-items: flex-start;
 }
 
+
+/*
+ * services page
+ */
+
 .service-content {
     padding: 0 16px; 
     overflow: hidden;
@@ -1084,8 +1091,12 @@ ul.pagination li {
     justify-content: flex-start;
     align-content: flex-start;
     align-items: center;
+    padding-bottom: 20px;
 }
 
+.service-content .service-content-row p {
+    @include font-size(16px);
+}
 .service-content .service-content-row .service-sidebar-coloumn {
     width: 150px;
 }
@@ -1097,16 +1108,37 @@ ul.pagination li {
 }
 
 .service-right-img, .service-left-img {
-    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #eee;
 }
 .service-right-img {
     @include MQ(M) {
-        padding: 20px 0px 20px 20px;
+        margin: 0 0px 0 20px;
     }
 }
 .service-left-img {
     @include MQ(M) {
-        padding: 20px 20px 20px 0;
+        margin: 0 20px 0 0;
     }
 }
 
+/*
+ * Live events page
+ */
+
+ .live-event-content {
+    padding: 0 16px 20px 16px;
+ }
+
+  .live-event-content h3 {
+    margin-top:0;
+    margin-bottom: 16px;
+  }
+
+  /*
+   * Contact us
+   */
+   .contact-us-banner img {
+    margin: 0 auto;
+    padding: 0 16px 20px 16px;
+   }

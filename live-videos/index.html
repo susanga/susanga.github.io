@@ -5,7 +5,7 @@ permalink: /videos/
 ---
 
 <div class="top-20-videos">
-  <h2>Live <span>Vidoes</span></h2>
+  <h2>Live <span>Videos</span></h2>
   <div class="videos-wrapper">
     {% include fetch-top-20-videos.html selector = 'video' %}  
   </div>
@@ -27,7 +27,7 @@ permalink: /videos/
       
   <a 
       class="media-item-row" 
-      ng-href="{{ prepend: site.baseurl | prepend: site.url }}[[video.href]]"
+      ng-href="[[video.href]]"
       ng-repeat="data in filtered = (list | filter:search | orderBy : predicate :reverse) | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
     <div class="cover-small">
       <img ng-src="http://svtlive.com/assets/images/videos/[[ data.thumbnailSmall ]]">
