@@ -3,7 +3,7 @@ layout: post
 title: "SANIDAPA LIVE IN HOMAGAMA 2014"
 pageType: audio
 thumbnail: 140x210/Sanidapa-Homagama-2014.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Sanidapa-Homagama-2014.jpg
 summary: SANIDAPA LIVE IN HOMAGAMA
 ---
 
@@ -129,3 +129,5 @@ SANIDAPA
 
 -   66 - END NONSTOP
 
+
+[DOWNLOAD FULL ALBUM ](http://www.mediafire.com/download/0er4oex1oovy46f/SANIDAPA_LIVE_IN_HOMAGAMA_2014.rar){:target="_blank"}

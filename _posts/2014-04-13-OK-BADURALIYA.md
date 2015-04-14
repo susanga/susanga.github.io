@@ -3,7 +3,7 @@ layout: post
 title: "MG WITH OK LIVE IN BADURALIA 2014"
 pageType: audio
 thumbnail: 140x210/MG-with-OK-Baduraliya-2014.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/MG-with-OK-Baduraliya-2014.jpg
 summary: MG WITH OK LIVE IN BADURALIA
 ---
 
@@ -94,3 +94,5 @@ summary: MG WITH OK LIVE IN BADURALIA
 -  MG WITH OK
 
 -  48 - MG WITH OK END NONSTOP 
+
+[DOWNLOAD FULL ALBUM ](http://www.mediafire.com/download/1b5ryj2ra296z4k/MG_WITH_OK_LIVE_IN_BADURALIA_2014.rar){:target="_blank"}

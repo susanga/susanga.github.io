@@ -3,7 +3,7 @@ layout: post
 title: "Degurun Wenuwen"
 pageType: video
 thumbnail: Degurun-wenuwen.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Degurun-wenuwen.jpg
 summary: Punsiri zoysa
 ---
 

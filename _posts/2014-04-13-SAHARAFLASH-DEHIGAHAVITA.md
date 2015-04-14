@@ -3,7 +3,7 @@ layout: post
 title: "SAHARA FLASH LIVE IN DEHIGAHAVITA 2014"
 pageType: audio
 thumbnail: 140x210/Sahara-Flash-Dehegahavita-2014.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Sahara-Flash-Dehegahavita-2014.jpg
 summary: SAHARA FLASH LIVE IN DEHIGAHAVITA
 ---
 
@@ -110,3 +110,5 @@ summary: SAHARA FLASH LIVE IN DEHIGAHAVITA
 - SAHARA FLASH
 
 - 60 - END 
+
+[DOWNLOAD FULL ALBUM ](http://www.mediafire.com/download/hgzarjle6wgz7y1/SAHARA_FLASH_LIVE_IN_DEHIGAHAVITA_2014.rar){:target="_blank"}

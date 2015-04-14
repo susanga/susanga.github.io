@@ -3,7 +3,7 @@ layout: post
 title: "SAKURA RANGE LIVE IN PELAWATTHA 2014"
 pageType: audio
 thumbnail: 140x210/Sakura-Range-Pelawattha-2014.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Sakura-Range-Pelawattha-2014.jpg
 summary: SAKURA RANGE LIVE IN PELAWATTHA
 ---
 
@@ -91,3 +91,5 @@ summary: SAKURA RANGE LIVE IN PELAWATTHA
 - SAKURA RANGE
 
 - 53 - END NONSTOP 
+
+[DOWNLOAD FULL ALBUM ](http://www.mediafire.com/download/cavhb8iysvf6o5b/SAKURA_RANGE_LIVE_IN_PELAWATTHA_2014.rar){:target="_blank"}

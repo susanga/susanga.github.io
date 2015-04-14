@@ -3,7 +3,7 @@ layout: post
 title: "PURPLE RANGE LIVE IN GALLE 2013"
 pageType: audio
 thumbnail: 140x210/Perpal-Range-Galle-2013.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Perpal-Range-Galle-2013.jpg
 summary: PURPLE RANGE LIVE IN GALLE
 ---
 
@@ -69,3 +69,4 @@ summary: PURPLE RANGE LIVE IN GALLE
 - 39 - ADARE HITHENAWA
 - 40 - MERE ANGNE ME
 
+[DOWNLOAD FULL ALBUM ](http://www.mediafire.com/download/75m2oeoutt3y23k/PURPLE_RANGE_LIVE_AT_GALLE_2013.rar){:target="_blank"}

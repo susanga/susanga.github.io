@@ -3,7 +3,7 @@ layout: post
 title: "FLASHBACK LIVE IN BOMBUWALA 2015"
 pageType: audio
 thumbnail: 140x210/FB-Bombuwala-2015.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Flashback-Bombuwala-2015.jpg
 summary: FLASHBACK LIVE IN BOMBUWALA 
 ---
 
@@ -74,3 +74,6 @@ summary: FLASHBACK LIVE IN BOMBUWALA
 - FLASHBACK
 
 - 38 - END NONSTOP 
+
+
+[DOWNLOAD FULL ALBUM ](http://www.mediafire.com/download/41atu3102ptcxxy/FLASHBACK_LIVE_IN_BOMBUWALA_2015.rar){:target="_blank"}
