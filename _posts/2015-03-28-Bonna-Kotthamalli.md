@@ -3,7 +3,7 @@ layout: post
 title: "Bonna Kotthamalli"
 pageType: video
 thumbnail: Kotthamalli.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Kotthamalli.jpg
 summary: All Right
 ---
 
