@@ -3,7 +3,7 @@ layout: post
 title: "PURPLE RANGE LIVE IN GALLE 2013"
 pageType: audio
 thumbnail: 140x210/Perpal-Range-Galle-2013.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Perpal-Range-Galle-2013.jpg
 summary: PURPLE RANGE LIVE IN GALLE
 ---
 
