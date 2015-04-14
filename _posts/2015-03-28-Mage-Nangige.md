@@ -3,7 +3,7 @@ layout: post
 title: "Mage Nangige"
 pageType: video
 thumbnail: Mage-nangige.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Mage-nangige.jpg
 summary: Ajith Muthukumarana
 ---
 
