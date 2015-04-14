@@ -3,7 +3,7 @@ layout: post
 title: "SAKURA RANGE LIVE IN PELAWATTHA 2014"
 pageType: audio
 thumbnail: 140x210/Sakura-Range-Pelawattha-2014.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Sakura-Range-Pelawattha-2014.jpg
 summary: SAKURA RANGE LIVE IN PELAWATTHA
 ---
 
