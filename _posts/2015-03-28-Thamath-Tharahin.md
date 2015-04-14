@@ -3,7 +3,7 @@ layout: post
 title: "Thamath Tharahin"
 pageType: video
 thumbnail: Thamath-tharihin.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Thamath-tharihin.jpg
 summary: Rose Alagiyawanna
 ---
 
