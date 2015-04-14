@@ -69,3 +69,4 @@ summary: PURPLE RANGE LIVE IN GALLE
 - 39 - ADARE HITHENAWA
 - 40 - MERE ANGNE ME
 
+[DOWNLOAD FULL ALBUM ](http://www.mediafire.com/download/75m2oeoutt3y23k/PURPLE_RANGE_LIVE_AT_GALLE_2013.rar){:target="_blank"}
