@@ -3,7 +3,7 @@ layout: post
 title: "FLASHBACK LIVE IN BOMBUWALA 2015"
 pageType: audio
 thumbnail: 140x210/FB-Bombuwala-2015.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Flashback-Bombuwala-2015.jpg
 summary: FLASHBACK LIVE IN BOMBUWALA 
 ---
 
