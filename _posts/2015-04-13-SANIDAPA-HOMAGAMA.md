@@ -3,7 +3,7 @@ layout: post
 title: "SANIDAPA LIVE IN HOMAGAMA 2014"
 pageType: audio
 thumbnail: 140x210/Sanidapa-Homagama-2014.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Sanidapa-Homagama-2014.jpg
 summary: SANIDAPA LIVE IN HOMAGAMA
 ---
 
