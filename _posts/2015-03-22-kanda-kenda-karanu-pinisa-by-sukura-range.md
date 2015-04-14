@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Kanda Kenda Karanu Pinisa By Sakura range
+title:  Kanda Kenda Karanu Sakura range
 pageType: video
 thumbnail: Kanda-kadira.jpg
 thumbnailSmall: 80x44.jpg
