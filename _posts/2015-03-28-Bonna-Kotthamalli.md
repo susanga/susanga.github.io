@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bonna Kotthamalli"
+title: "Bonna Kotthamalli - All Right"
 pageType: video
 thumbnail: Kotthamalli.jpg
 thumbnailSmall: 80x44/Kotthamalli.jpg
