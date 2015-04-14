@@ -3,7 +3,7 @@ layout: post
 title: "Me Sinhala"
 pageType: video
 thumbnail: Me-singhala-apge-ratayi.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Me-singhala-apge-ratayi.jpg
 summary: Oggve Tharanga
 ---
 
