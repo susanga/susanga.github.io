@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Degurun Wenuwen"
+title: "Degurun Wenuwen - Punsiri Zoysa"
 pageType: video
 thumbnail: Degurun-wenuwen.jpg
 thumbnailSmall: 80x44/Degurun-wenuwen.jpg
