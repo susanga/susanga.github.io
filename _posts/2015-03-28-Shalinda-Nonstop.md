@@ -3,7 +3,7 @@ layout: post
 title: "Shalinda Nonstop"
 pageType: video
 thumbnail: Salinda-nanstop.jpg
-thumbnailSmall: 80x44.jpg
+thumbnailSmall: 80x44/Salinda-nanstop.jpg
 summary: Shalinda Perera
 ---
 
