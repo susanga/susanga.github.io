@@ -2,7 +2,7 @@
 layout: post
 title:  Kanda Kenda Karanu Pinisa By Sakura range
 pageType: video
-thumbnail: 187x113.jpg
+thumbnail: Kanda-kadira.jpg
 thumbnailSmall: 80x44.jpg
 summary: summary
 ---
