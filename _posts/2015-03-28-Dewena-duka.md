@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dewena Duka"
+title: "Dewena Duka - Nadeera Nonis"
 pageType: video
 thumbnail: Dewena-duka.jpg
 thumbnailSmall: 80x44/Dewena-duka.jpg
