@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thamath Tharahin"
+title: "Thamath Tharahin - Rose Alagiyawanna"
 pageType: video
 thumbnail: Thamath-tharihin.jpg
 thumbnailSmall: 80x44/Thamath-tharihin.jpg
