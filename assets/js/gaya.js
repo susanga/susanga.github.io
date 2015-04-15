@@ -1,3 +1,14 @@
+ if ($('.main-slider').length) {
+      $(".main-slider").bxSlider({
+          auto: true,
+          mode: "fade",
+          controls: false,            
+          pager: false,
+          speed: 1000,
+          adaptiveHeight: false,                    
+      }); 
+    }
+    
 /*
  * Sidebar toggle function 
  */

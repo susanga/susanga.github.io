@@ -627,8 +627,14 @@ img {
     display: block;
 }
 
+.bx-wrapper .bx-viewport {
+    border: none;
+}
+
+
 .main-slider .main-slide {
     position: relative;
+    width: auto !important;
     img {z-index: 10;}
 }
 
@@ -721,9 +727,9 @@ img {
 }
 .main-slider .main-slide .video-list .video-item .img-cover {
     width: 150px;
-    height: 75px;
+    height: 70px;
     border: 1px solid #e2e2e2;
-    line-height: 75px;
+    line-height: 70px;
     text-align: center;
     font-size: 20px;
     position: relative;
@@ -1105,7 +1111,7 @@ ul.pagination li {
     @include font-size(16px);
 }
 .service-content .service-content-row .service-sidebar-coloumn {
-    width: 150px;
+    width: 250px;
 }
 
 

@@ -1072,8 +1072,12 @@ pre code {
   width: 100%;
   display: block; }
 
+.bx-wrapper .bx-viewport {
+  border: none; }
+
 .main-slider .main-slide {
-  position: relative; }
+  position: relative;
+  width: auto !important; }
   .main-slider .main-slide img {
     z-index: 10; }
 
@@ -1163,9 +1167,9 @@ pre code {
 
 .main-slider .main-slide .video-list .video-item .img-cover {
   width: 150px;
-  height: 75px;
+  height: 70px;
   border: 1px solid #e2e2e2;
-  line-height: 75px;
+  line-height: 70px;
   text-align: center;
   font-size: 20px;
   position: relative;
@@ -1588,7 +1592,7 @@ ul.pagination li.active a, ul.pagination li.active span {
   font-size: 1rem; }
 
 .service-content .service-content-row .service-sidebar-coloumn {
-  width: 150px; }
+  width: 250px; }
 
 .service-content .service-content-row .service-detail-coloumn {
   -webkit-flex: 1;
