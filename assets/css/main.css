@@ -1620,3 +1620,89 @@ ul.pagination li.active a, ul.pagination li.active span {
 .contact-us-banner img {
   margin: 0 auto;
   padding: 0 16px 20px 16px; }
+
+.contact-us-content {
+  padding: 0 16px 16px 16px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  @media only screen and (min-width: 768px) {
+    .contact-us-content {
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.contact-us-item {
+  -webkit-flex: 33.33% 0 0;
+      -ms-flex: 33.33% 0 0;
+          flex: 33.33% 0 0;
+  padding-right: 16px; }
+  .contact-us-item:last-child {
+    padding-right: 0; }
+
+.contact-us-item h3 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #eee; }
+
+.contact-us-item .contact-number {
+  font-size: 16px;
+  font-size: 1rem; }
+  .contact-us-item .contact-number .fa {
+    padding-right: 5px; }
+  .contact-us-item .contact-number a {
+    text-decoration: none;
+    color: #333333; }
+
+.contact-us-social-media-header {
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding: 10px 16px 0px 16px; }
+
+.contact-us-social-media-links {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 16px 20px 16px;
+  padding: 0 15px; }
+
+.contact-us-social-media-links .facebook-link, .contact-us-social-media-links .youtube-link {
+  font-size: 35px;
+  margin: 0 4px;
+  text-decoration: none; }
+.contact-us-social-media-links .facebook-link:hover, .contact-us-social-media-links .facebook-link:focus, .contact-us-social-media-links .facebook-linkactive {
+  border-bottom: none; }
+.contact-us-social-media-links .youtube-link:hover, .contact-us-social-media-links .youtube-link:focus, .contact-us-social-media-links .youtube-linkactive {
+  border-bottom: none;
+  color: #d14836; }
