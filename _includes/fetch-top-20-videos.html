@@ -1,8 +1,5 @@
-{% assign selector = include.selector %}
-{% assign isFound = false %}
-{% for post in site.posts limit: 20 %}
-  {% if post.pageType != null and post.pageType != empty and post.pageType contains selector %}           
-    {% assign isFound = true %}
+{% assign posts = (site.posts | where: "pageType" , "video") %}
+{% for post in posts limit 20 %} 
         <a class="featured-video" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
         <div class="cover-video">
           {% if post.thumbnail %}
@@ -14,8 +11,4 @@
         <h5>{{ post.title }}</h5>
         <p>{{ post.summary }}</p>
         </a>
-  {% endif %}
 {% endfor %}  
-{% if isFound == false %}
-  <p>Oops not item found.</p>
-{% endif %} 

@@ -25,16 +25,16 @@ permalink: /audios/
     </div>
   </div>
       
-  <a 
-      class="media-item-row" 
-      ng-href="{{ prepend: site.baseurl | prepend: site.url }}[[audio.href]]"
+  <div 
       ng-repeat="data in filtered = (list | filter:search | orderBy : predicate :reverse) | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
-    <div class="cover-small">
-       <img ng-src="http://svtlive.com/assets/images/audios/[[ data.thumbnailSmall ]]">
-    </div>
-    <div class="media-item-name">[[ data.title ]]</div>
-    <div class="media-item-artist">[[ data.artist ]]</div>
-  </a>
+      <a ng-href="[[data.href]]"  class="media-item-row">
+        <div class="cover-small">
+           <img ng-src="http://svtlive.com/assets/images/audios/[[ data.thumbnailSmall ]]">
+        </div>
+        <div class="media-item-name">[[ data.title ]]</div>
+        <div class="media-item-artist">[[ data.artist ]]</div>
+      </a>
+  </div>
 
 
 </div>
