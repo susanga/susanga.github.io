@@ -5,10 +5,11 @@
           controls: false,            
           pager: false,
           speed: 1000,
-          adaptiveHeight: false,                    
+          adaptiveHeight: false,
+          preloadImages: all,               
       }); 
     }
-    
+
 /*
  * Sidebar toggle function 
  */
