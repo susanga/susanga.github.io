@@ -6,7 +6,7 @@
           pager: false,
           speed: 1000,
           adaptiveHeight: false,
-          preloadImages: all,               
+          preloadImages: visible,               
       }); 
     }
 
