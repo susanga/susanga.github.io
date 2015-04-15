@@ -87,3 +87,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at mi lobortis,
 - PURPLE RANGE
 
 - 46 - END NONSTOP 
+
+[DOWNLOAD FULL ALBUM ](http://www.mediafire.com/download/1crixbtqby3uuyy/PURPLE_RANGE_LIVE_IN_WALAGEDARA_2014.rar){:target="_blank"}
