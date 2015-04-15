@@ -931,6 +931,8 @@ pre code {
     .featured-videos .videos-wrapper .featured-video, .top-20-videos .videos-wrapper .featured-video {
       margin-right: 10px;
       margin-bottom: 10px; }
+      .featured-videos .videos-wrapper .featured-video:nth-child(5n), .top-20-videos .videos-wrapper .featured-video:nth-child(5n) {
+        margin-right: 0; }
       .featured-videos .videos-wrapper .featured-video:last-child, .top-20-videos .videos-wrapper .featured-video:last-child {
         margin-right: 0; } }
 
@@ -1477,8 +1479,10 @@ ul.pagination li.active a, ul.pagination li.active span {
   text-decoration: none; }
   @media only screen and (min-width: 768px) {
     .audio-item {
-      margin-right: 10px;
+      margin-right: 25px;
       margin-bottom: 10px; }
+      .audio-item:nth-child(6n) {
+        margin-right: 0; }
       .audio-item:last-child {
         margin-right: 0; } }
   .audio-item:hover, .audio-item:focus, .audio-item:active {
