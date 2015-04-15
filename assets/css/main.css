@@ -1080,6 +1080,9 @@ pre code {
   width: auto !important; }
   .main-slider .main-slide img {
     z-index: 10; }
+    @media only screen and (min-width: 768px) {
+      .main-slider .main-slide img {
+        max-height: 453px; } }
 
 .main-slider .main-slide .video-list {
   display: -webkit-flex;

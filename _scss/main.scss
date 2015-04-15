@@ -635,7 +635,9 @@ img {
 .main-slider .main-slide {
     position: relative;
     width: auto !important;
-    img {z-index: 10;}
+    img {z-index: 10; @include MQ(M) {
+         max-height: 453px;
+        }}
 }
 
 
