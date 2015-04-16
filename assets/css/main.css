@@ -1723,7 +1723,8 @@ ul.pagination li.active a, ul.pagination li.active span {
   font-size: 1.875rem;
   text-align: center;
   padding: 1em;
-  background-color: #ccc; }
+  background-color: #ccc;
+  line-height: 1.4; }
   .live-show-banner a {
     text-decoration: none; }
     .live-show-banner a i.fa {
