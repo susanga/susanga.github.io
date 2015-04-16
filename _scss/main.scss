@@ -1229,3 +1229,21 @@ ul.pagination li {
         }
     }
 }
+
+.live-show-banner {
+    @include font-size(30px);
+    text-align:center;
+    padding: 1em;
+    background-color: #ccc;
+    a {
+        text-decoration: none;
+        i.fa {
+            color: #d14836;
+        }
+        &:hover, &:focus, &:active {
+            color: #d14836;
+            text-decoration: none;
+            border-bottom: none;
+        }
+    }
+}

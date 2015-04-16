@@ -1717,3 +1717,18 @@ ul.pagination li.active a, ul.pagination li.active span {
 .contact-us-social-media-links .youtube-link:hover, .contact-us-social-media-links .youtube-link:focus, .contact-us-social-media-links .youtube-linkactive {
   border-bottom: none;
   color: #d14836; }
+
+.live-show-banner {
+  font-size: 30px;
+  font-size: 1.875rem;
+  text-align: center;
+  padding: 1em;
+  background-color: #ccc; }
+  .live-show-banner a {
+    text-decoration: none; }
+    .live-show-banner a i.fa {
+      color: #d14836; }
+    .live-show-banner a:hover, .live-show-banner a:focus, .live-show-banner a:active {
+      color: #d14836;
+      text-decoration: none;
+      border-bottom: none; }
