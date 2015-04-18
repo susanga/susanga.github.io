@@ -843,6 +843,10 @@ pre code {
   padding: 16px;
   min-width: 320px; }
 
+.content-wrapper .post .post-content ul, ol {
+  font-size: 12px;
+  font-size: 0.75rem; }
+
 .content-wrapper .post .post-content:first-child h2 {
   margin-top: 0; }
 

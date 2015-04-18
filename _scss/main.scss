@@ -391,6 +391,10 @@ img {
 
 }
 
+.content-wrapper .post .post-content  ul,ol {
+    @include font-size(12px);
+}
+
 .content-wrapper .post .post-content:first-child h2 {
     margin-top: 0;
 }
