@@ -360,10 +360,10 @@ img {
 }
 
 .content-wrapper a {
+    color: $color-black;
     &:hover, &:focus, &:active {
         text-decoration: none;
         border-bottom-color: $color-black;
-        color: $color-black;
     }
 }
 
