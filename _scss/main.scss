@@ -359,6 +359,13 @@ img {
 
 }
 
+.content-wrapper a {
+    &:hover, &:focus, &:active {
+        text-decoration: none;
+        border-bottom-color: $color-black;
+    }
+}
+
 .content-wrapper .post {
     width: 100%;
     display: flex;
