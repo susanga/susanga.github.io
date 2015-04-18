@@ -1733,3 +1733,6 @@ ul.pagination li.active a, ul.pagination li.active span {
       color: #d14836;
       text-decoration: none;
       border-bottom: none; }
+
+.common-page-wrapper {
+  padding: 16px; }
