@@ -363,6 +363,7 @@ img {
     &:hover, &:focus, &:active {
         text-decoration: none;
         border-bottom-color: $color-black;
+        color: $color-black;
     }
 }
 
