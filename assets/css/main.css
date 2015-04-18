@@ -147,7 +147,7 @@ ul.social-media li a.rss {
   padding: 20px 25px;
   line-height: 5px;
   position: relative;
-  margin: 0 5px 20px 0;
+  margin: 16px 5px 20px 0;
   color: #FFFFFF;
   border: 1px solid #EEEEEE;
   text-decoration: none;
@@ -167,8 +167,9 @@ ul.social-media li a.rss {
     transform: translateY(1px); }
 
 .btn {
-  border-color: #017785;
-  background: rgba(1, 119, 133, 0.8); }
+  border-color: #017785 !important;
+  background: rgba(1, 119, 133, 0.8);
+  color: #FFFFFF !important; }
   .btn:hover, .btn:focus {
     border-color: #01616c;
     background: rgba(0, 97, 107, 0.8); }
@@ -802,7 +803,8 @@ pre code {
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06); }
 
 .content-wrapper a {
-  color: #000000; }
+  color: #000000;
+  border-bottom-color: #eeeeee; }
   .content-wrapper a:hover, .content-wrapper a:focus, .content-wrapper a:active {
     text-decoration: none;
     border-bottom-color: #000000; }
@@ -1715,11 +1717,13 @@ ul.pagination li.active a, ul.pagination li.active span {
   padding: 0 15px; }
 
 .contact-us-social-media-links .facebook-link, .contact-us-social-media-links .youtube-link {
-  font-size: 35px;
+  color: #333333;
+  font-size: 50px;
   margin: 0 4px;
   text-decoration: none; }
 .contact-us-social-media-links .facebook-link:hover, .contact-us-social-media-links .facebook-link:focus, .contact-us-social-media-links .facebook-linkactive {
-  border-bottom: none; }
+  border-bottom: none;
+  color: #23527c; }
 .contact-us-social-media-links .youtube-link:hover, .contact-us-social-media-links .youtube-link:focus, .contact-us-social-media-links .youtube-linkactive {
   border-bottom: none;
   color: #d14836; }
@@ -1732,7 +1736,8 @@ ul.pagination li.active a, ul.pagination li.active span {
   background-color: #ccc;
   line-height: 1.4; }
   .live-show-banner a {
-    text-decoration: none; }
+    text-decoration: none;
+    border-bottom: none; }
     .live-show-banner a i.fa {
       color: #d14836; }
     .live-show-banner a:hover, .live-show-banner a:focus, .live-show-banner a:active {

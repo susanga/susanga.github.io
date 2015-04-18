@@ -361,6 +361,7 @@ img {
 
 .content-wrapper a {
     color: $color-black;
+    border-bottom-color: $gray-lighter;
     &:hover, &:focus, &:active {
         text-decoration: none;
         border-bottom-color: $color-black;
@@ -1220,14 +1221,17 @@ ul.pagination li {
    }
 .contact-us-social-media-links {
     .facebook-link, .youtube-link{
-        font-size: 35px;
+        color: $gray-dark;
+        font-size: 50px;
         margin: 0 4px;
         text-decoration: none;
     }
 
     .facebook-link {
+
         &:hover, &:focus, &active {
             border-bottom: none;
+            color:#23527c;
         }
     } 
     .youtube-link{
@@ -1246,6 +1250,7 @@ ul.pagination li {
     line-height: 1.4;
     a {
         text-decoration: none;
+        border-bottom: none;
         i.fa {
             color: #d14836;
         }
