@@ -88,12 +88,7 @@ summary: SAKURA RANGE LIVE IN PELAWATTHA
 - 51 - EPADI PODA  
 - 52 - K NONSTOP
 
-####<a 
-  href="http://www.mediafire.com/download/1crixbtqby3uuyy/PURPLE_RANGE_LIVE_IN_WALAGEDARA_2014.rar"
-  class="btn" 
-  target="_blank">
-  DOWNLOAD FULL ALBUM
-</a> SAKURA RANGE
+#### SAKURA RANGE
 
 - 53 - END NONSTOP 
 
