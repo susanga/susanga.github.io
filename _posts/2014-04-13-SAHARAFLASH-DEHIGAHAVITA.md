@@ -112,10 +112,3 @@ downloadLink: http://www.mediafire.com/download/hgzarjle6wgz7y1/SAHARA_FLASH_LIV
 
 - 60 - END 
 
-<a 
-  href="http://www.mediafire.com/download/hgzarjle6wgz7y1/SAHARA_FLASH_LIVE_IN_DEHIGAHAVITA_2014.rar"
-  class="btn" 
-  target="_blank">
-  DOWNLOAD FULL ALBUM
-</a>
-
