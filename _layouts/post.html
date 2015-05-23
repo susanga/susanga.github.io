@@ -7,11 +7,21 @@ layout: default
     
     {{ content }}
 
-    <div class="share-panel">
-      {% if site.theme.show_share_buttons %}
-        {% include share-buttons.html %}
+    <div class="footer-panel">      
+      <div class="share-panel">
+        {% if site.theme.show_share_buttons %}
+          {% include share-buttons.html %}
+        {% endif %}
+      </div>  
+      {% if page.downloadLink %}
+        <div class="download-btn-wrapper">
+        <a href="{{page.downloadLink}}" class="btn" target="_blank" title="{{ page.title }}">
+          DOWNLOAD FULL ALBUM
+        </a>
+        </div>
       {% endif %}
-    </div> 
+    </div>
+     
   </div>
   <div class="sidebar">
     

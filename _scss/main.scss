@@ -379,6 +379,26 @@ img {
     align-items: stretch;
 }
 
+.content-wrapper .post .footer-panel {
+    border-top: 1px solid $gray-lighter;
+    width: 100%;
+    display: block;
+    position:relative;
+} 
+
+.content-wrapper .post .footer-panel .share-panel, .content-wrapper .post .footer-panel .download-btn-wrapper {
+    @include column(1);
+    padding-bottom: 20px;
+    @include MQ(M) {
+        padding-bottom: 0;
+        @include column(.5);
+    }
+}
+
+.content-wrapper .post .footer-panel .download-btn-wrapper {
+    text-align: right;
+}
+
 .video-frame {
     padding: 10px 0 16px 0;
 }
@@ -802,10 +822,9 @@ img {
 \*------------------------------------*/
 
 .share-buttons {
-  border-top: 1px solid $gray-lighter;
-  padding: 16px 0;
+  padding: 10px 0;
   @include column(1);
-  
+  margin: 16px 5px 0px 0;
 }
 
 .author, .share-buttons { 
