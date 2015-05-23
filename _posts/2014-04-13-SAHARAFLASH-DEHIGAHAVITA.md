@@ -12,9 +12,9 @@ downloadLink: http://www.mediafire.com/download/hgzarjle6wgz7y1/SAHARA_FLASH_LIV
 
 {% include album-image.html imgSource ='Sahara-Flash-Dehegahavita-2014.jpg' %}
 
-### Track list 
+#### Track list 
 
-- SAHARA FLASH
+#### SAHARA FLASH
 
 - 01 - SAHARA FLASH STRATUP 
 - 02 - HUM TERE 
@@ -31,49 +31,49 @@ downloadLink: http://www.mediafire.com/download/hgzarjle6wgz7y1/SAHARA_FLASH_LIV
 - 13 - PREME 
 - 14 - TEMIL NONSTOP  
 
-- CHAMIKA SIRIMANNA
+#### CHAMIKA SIRIMANNA
 
 - 15 - HITHA HADAGANNA 
 - 16 - KIYANNA BARI  
 - 17 - HITHANNA EPA  
 - 18 - WEN VEE  
 
-- GINGER
+#### GINGER
 
 - 19 - SUDU WALAKULE  
 - 20 - CRICKET
 - 21 - KERAKI 
 - 22 - GINGER NONSTOP  
 
-- RUWAN HETTIARACHCHI
+#### RUWAN HETTIARACHCHI
 
 - 23 - REWATUNA THARAM 
 - 24 - SEETHA MARUTHE  
 - 25 - NODEKA INNA  
 - 26 - SURANGANAVEE 
 
-- ASANKA PRIYAMANTHA
+#### ASANKA PRIYAMANTHA
 
 - 27 - ATHUL HITHE  
 - 28 - DASA MASAK  
 - 29 - SANDA ELIYA  
 - 30 - RODA HATAHRE 2 IN 1 
 
-- MITHRA KAPUGE
+#### MITHRA KAPUGE
 
 - 31 - DAWASAK PELA 
 - 32 - DESA NILUPUL  
 - 33 - DOMBA MAL 
 - 34 - AHASA USATA 
 
-- JUDE ROGENS
+#### JUDE ROGENS
 
 - 35 - OYA ASS 
 - 36 - HOREN BALA 
 - 37 - ROSA DETHOLIN 
 - 38 - JUDE NONSTOP 
 
-- ISHAK BEG
+#### ISHAK BEG
 
 - 39 - SAKALA SATHAMA 
 - 40 - SUDU SANDA  
@@ -81,35 +81,41 @@ downloadLink: http://www.mediafire.com/download/hgzarjle6wgz7y1/SAHARA_FLASH_LIV
 - 42 - MAN LOKE  
 - 43 - RUN JUM JUM  
 
-- NILANGA SILVA
+#### NILANGA SILVA
 
 - 44 - SANDA KINNARAVI  
 - 45 - PUNSANDA DA 
 - 46 - KALAPUWA  
 - 47 - NILANGA NONSTOP
 
-- PODI LAMAYA
+#### PODI LAMAYA
 
 - 49 - NIDUK NIROGI 
 - 50 - ALI ATHUN  
 - 51 - LENA 
 
-- CHAMARA RANAWAKA
+#### CHAMARA RANAWAKA
 
 - 52 - JANDI PAHATA  
 - 53 - KAMBI THAPPETA 
 - 54 - PITAKOTUWE  
 - 55 - BANJO RABAN  
 
-- NIMAL GUNASEKARA
+#### NIMAL GUNASEKARA
 
 - 56 - AWATA THIBUNATH 
 - 57 - IRA NA 
 - 58 - PREMA MAYA 
 - 59 - NANGILATA 
 
-- SAHARA FLASH
+#### SAHARA FLASH
 
 - 60 - END 
 
-[DOWNLOAD FULL ALBUM ](http://www.mediafire.com/download/hgzarjle6wgz7y1/SAHARA_FLASH_LIVE_IN_DEHIGAHAVITA_2014.rar){:target="_blank"}
+<a 
+  href="http://www.mediafire.com/download/hgzarjle6wgz7y1/SAHARA_FLASH_LIVE_IN_DEHIGAHAVITA_2014.rar"
+  class="btn" 
+  target="_blank">
+  DOWNLOAD FULL ALBUM
+</a>
+
