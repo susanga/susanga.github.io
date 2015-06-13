@@ -1073,7 +1073,7 @@ ul.pagination li {
     h5 {
         margin:5px 0 0 0;
         font-weight: 600;
-        @include font-size(12px);
+        @include font-size(10px);
     }
     p {
         color: #666;
@@ -1293,4 +1293,18 @@ ul.pagination li {
 
 .common-page-wrapper {
     padding: 16px;
+}
+
+
+.advert-here {
+    background-color: #EEE;
+    width: 100%;
+    display: block;
+    position: relative;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    @include font-size(13px);
+    color: $color-1;
+    font-weight: 600;
 }

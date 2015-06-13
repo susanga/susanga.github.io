@@ -1540,8 +1540,8 @@ ul.pagination li.active a, ul.pagination li.active span {
 .audio-item h5 {
   margin: 5px 0 0 0;
   font-weight: 600;
-  font-size: 12px;
-  font-size: 0.75rem; }
+  font-size: 10px;
+  font-size: 0.625rem; }
 .audio-item p {
   color: #666;
   margin: 0;
@@ -1776,3 +1776,16 @@ ul.pagination li.active a, ul.pagination li.active span {
 
 .common-page-wrapper {
   padding: 16px; }
+
+.advert-here {
+  background-color: #EEE;
+  width: 100%;
+  display: block;
+  position: relative;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  color: #017785;
+  font-weight: 600; }
