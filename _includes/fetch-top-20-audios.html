@@ -1,6 +1,6 @@
 {% assign posts = (site.posts | where: "pageType" , "audio") %}
  {% for post in posts limit 20 %} 
-        <a class="audio-item" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+        <a class="audio-item" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" title="{{post.title}}">
         <div class="cover-audio">
           {% if post.thumbnail %}
             <img 

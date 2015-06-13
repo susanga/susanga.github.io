@@ -5,6 +5,7 @@ pageType: audio
 thumbnail: 140x210/PR-haldumulla-140-210.jpg
 thumbnailSmall: 80x44/PR-haldumulla-80-44.jpg
 summary: PURPAL RANGE LIVE IN HALDUMULLA
+downloadLink: http://www.mediafire.com/download/3tlcb1wcrtjju86/PURPLE_RANGE_LIVE_IN_HALDUMULLA_2015.rar
 ---
 
 <div class="ab-player" data-boourl="https://audioboom.com/publishing/playlist/v3?autoplay=false&boo_content_type=playlist&data_for_content_type=1277882&image_option=small&link_color=%2358d1eb&player_theme=light&show_title=true&src=https%3A%2F%2Fapi.audioboom.com%2Fplaylists%2F1277882-purple-range-live-in-haldumulla-2015" data-boowidth="100%" data-maxheight="285" data-iframestyle="background-color:transparent; display:block; min-width:300px; max-width:700px;" style="background-color:transparent;"></div><script type="text/javascript">(function() { var po = document.createElement("script"); po.type = "text/javascript"; po.async = true; po.src = "https://d15mj6e6qmt1na.cloudfront.net/cdn/embed.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s); })();</script>
@@ -81,14 +82,4 @@ summary: PURPAL RANGE LIVE IN HALDUMULLA
 
 - 47 - SEWANDRI NONSTOP  
 - 48 - END NONSTOP 
-
-
-
-
-<a 
-  href="http://www.mediafire.com/download/3tlcb1wcrtjju86/PURPLE_RANGE_LIVE_IN_HALDUMULLA_2015.rar"
-  class="btn" 
-  target="_blank">
-  DOWNLOAD FULL ALBUM
-</a>
 

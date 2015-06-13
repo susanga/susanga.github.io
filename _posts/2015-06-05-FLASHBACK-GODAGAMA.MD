@@ -5,6 +5,7 @@ pageType: audio
 thumbnail: 140x210/FLASHBACK-GODAGAMA-2015-140-210.jpg
 thumbnailSmall: 80x44/FLASHBACK-GODAGAMA-2015-80-44.jpg
 summary: FLASHBACK LIVE IN GODAGAMA
+downloadLink: http://www.mediafire.com/download/tx2ct1azl5722se/FLASHBACK_LIVE_IN_GODAGAMA_2015.rar
 ---
 
 
@@ -108,12 +109,4 @@ summary: FLASHBACK LIVE IN GODAGAMA
 #### FLASHBACK
 
 52 - END NONSTOP
-
-
-<a 
-  href="http://www.mediafire.com/download/tx2ct1azl5722se/FLASHBACK_LIVE_IN_GODAGAMA_2015.rar"
-  class="btn" 
-  target="_blank">
-  DOWNLOAD FULL ALBUM
-</a>
 

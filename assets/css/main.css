@@ -154,6 +154,7 @@ ul.social-media li a.rss {
   letter-spacing: 1px;
   border-bottom-width: 2px;
   display: inline-block;
+  font-weight: 600;
   -o-border-radius: 0.2em;
   border-radius: 0.2em;
   -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
@@ -1172,7 +1173,8 @@ pre code {
   width: 150px;
   display: block;
   height: 100px;
-  float: left; }
+  float: left;
+  position: relative; }
   @media only screen and (min-width: 768px) {
     .main-slider .main-slide .video-list .video-item {
       width: 132px;
@@ -1181,7 +1183,11 @@ pre code {
     display: block;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; }
+    text-overflow: ellipsis;
+    position: absolute;
+    width: 120px;
+    left: 0;
+    bottom: -3px; }
     @media only screen and (min-width: 768px) {
       .main-slider .main-slide .video-list .video-item h5, .main-slider .main-slide .video-list .video-item p {
         padding: 0 16px;

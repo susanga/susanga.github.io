@@ -5,6 +5,7 @@ pageType: audio
 thumbnail: 140x210/Arrow-Star-Diyalagoda-2014-Cover.jpg
 thumbnailSmall: 80x44/Arrow-Star-Diyalagoda-2014-Cover.jpg
 summary: ARROW STAR LIVE IN DIYALAGODA
+downloadLink: http://www.mediafire.com/download/3s48th4ccqlbb1u/ARROW_STAR_LIVE_IN_DIYALAGODA_2014.rar
 ---
 
 <div class="ab-player" data-boourl="https://audioboom.com/publishing/playlist/v3?autoplay=false&boo_content_type=playlist&data_for_content_type=1276136&image_option=small&link_color=%2358d1eb&player_theme=light&show_title=true&src=https%3A%2F%2Fapi.audioboom.com%2Fplaylists%2F1276136-arrow-star-live-in-diyalagoda-2014" data-boowidth="100%" data-maxheight="285" data-iframestyle="background-color:transparent; display:block; min-width:300px; max-width:700px;" style="background-color:transparent;"></div><script type="text/javascript">(function() { var po = document.createElement("script"); po.type = "text/javascript"; po.async = true; po.src = "https://d15mj6e6qmt1na.cloudfront.net/cdn/embed.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s); })();</script>
@@ -107,11 +108,3 @@ summary: ARROW STAR LIVE IN DIYALAGODA
 #### ARROW STAR
 
 - 50 - END NONSTOP 
-
-<a 
-  href="http://www.mediafire.com/download/3s48th4ccqlbb1u/ARROW_STAR_LIVE_IN_DIYALAGODA_2014.rar"
-  class="btn" 
-  target="_blank">
-  DOWNLOAD FULL ALBUM
-</a>
-

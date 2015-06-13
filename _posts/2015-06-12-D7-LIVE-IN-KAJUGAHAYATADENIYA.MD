@@ -5,6 +5,7 @@ pageType: audio
 thumbnail: 140x210/D7-KAJUGAHAYATADENIYA-140-210.jpg
 thumbnailSmall: 80x44/D7-KAJUGAHAYATADENIYA-80-44.jpg
 summary: D7 LIVE IN KAJUGAHAYATADENIYA
+downloadLink: http://www.mediafire.com/download/5hs7vpcbms3oc74/D7_LIVE_IN_KAJUGAHAYATADENIYA_2015.rar
 ---
 
 
@@ -97,12 +98,4 @@ summary: D7 LIVE IN KAJUGAHAYATADENIYA
 
 - 51 - END NONSTOP 
 
-
-
-<a 
-  href="http://www.mediafire.com/download/5hs7vpcbms3oc74/D7_LIVE_IN_KAJUGAHAYATADENIYA_2015.rar"
-  class="btn" 
-  target="_blank">
-  DOWNLOAD FULL ALBUM
-</a>
 

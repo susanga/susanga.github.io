@@ -5,6 +5,7 @@ pageType: audio
 thumbnail: 140x210/Sakura-Range-Pelawattha-2014.jpg
 thumbnailSmall: 80x44/Sakura-Range-Pelawattha-2014.jpg
 summary: SAKURA RANGE LIVE IN PELAWATTHA
+downloadLink: http://www.mediafire.com/download/cavhb8iysvf6o5b/SAKURA_RANGE_LIVE_IN_PELAWATTHA_2014.rar
 ---
 
 <div class="ab-player" data-boourl="https://audioboom.com/publishing/playlist/v3?autoplay=false&boo_content_type=playlist&data_for_content_type=1275903&image_option=small&link_color=%2358d1eb&player_theme=light&show_title=true&src=https%3A%2F%2Fapi.audioboom.com%2Fplaylists%2F1275903-sakura-range-live-in-pelawattha-2014" data-boowidth="100%" data-maxheight="285" data-iframestyle="background-color:transparent; display:block; min-width:300px; max-width:700px;" style="background-color:transparent;"></div><script type="text/javascript">(function() { var po = document.createElement("script"); po.type = "text/javascript"; po.async = true; po.src = "https://d15mj6e6qmt1na.cloudfront.net/cdn/embed.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s); })();</script>
@@ -91,10 +92,3 @@ summary: SAKURA RANGE LIVE IN PELAWATTHA
 #### SAKURA RANGE
 
 - 53 - END NONSTOP 
-
-<a 
-  href="http://www.mediafire.com/download/cavhb8iysvf6o5b/SAKURA_RANGE_LIVE_IN_PELAWATTHA_2014.rar"
-  class="btn" 
-  target="_blank">
-  DOWNLOAD FULL ALBUM
-</a>

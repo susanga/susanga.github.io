@@ -733,6 +733,8 @@ img {
     display: block;
     height: 100px;
     float: left;
+    position: relative;
+
     @include MQ(M) {
         width: 132px;
         margin-right: 16px;
@@ -742,6 +744,10 @@ img {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        position: absolute; 
+        width: 120px;
+        left: 0;
+        bottom: -3px;
         @include MQ(M) {
             padding: 0 16px;
             color: #FFF;
