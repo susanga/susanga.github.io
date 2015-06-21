@@ -1,0 +1,99 @@
+---
+layout: post
+title: "ARROW STAR LIVE IN MEEGODA 2015"
+pageType: audio
+thumbnail: 140x210/AR-meegoda-140-210.jpg
+thumbnailSmall: 80x44/AR-meegoda-80-44.jpg
+summary: ARROW STAR LIVE IN MEEGODA
+downloadLink: http://www.mediafire.com/download/ambjdytorptw1d1/ARROW_STAR_LIVE_IN_MEEGODA_2015.rar
+---
+
+
+{% include album-image.html imgSource ='AR-meegoda-500-700.jpg' %}
+
+### Track list 
+
+####   ARROW STAR  
+
+- 01 - ARROW STAR INTRO 
+- 02 - AMMA 
+- 03 - SUNONA SANGA 
+- 04 - HEENEN THURULE 
+- 05 - SALLI SALLI 
+- 06 - SASARA WASANA THURU  
+- 07 - HINDI SONG 
+- 08 - KATUN SONGS  
+- 09 - MALLIYE NARAKA  
+- 10 - SELFI PULLA  
+- 11 - OBA GENA  
+- 12 - NIRO NONSTOP 
+- 13 - BASS SOLO 
+- 14 - NONSTOP 
+- 15 - VIKASITHA WATHA 
+- 16 - NONSTOP 
+
+####   SHASHIKA SEMINI
+
+- 17 - AMMALA DUK 
+- 18 - BALANNA 
+- 19 - NELUM MALE 
+- 20 - IGILLILA YANNA 
+
+####   LAKSHMAN RODRIGO
+
+- 21 - VIDULI DUMRIYE 
+- 22 - KANDA KAPA 
+- 23 - KAGE KAUDO  
+- 24 - GEETHA GAYA  
+
+####   LAXSHMAN HEWAVITARANA
+
+- 25 - MAL KEKULAKATA  
+- 26 - ADARAYA WAGE  
+- 27 - MAN AHANNENAM  
+- 28 - HARI ADARAYEN  
+
+####   CHETHANA DON
+
+- 29 - SENEHE MAWA  
+- 30 - ADARE 
+- 31 - SUNONA SANGA 
+- 32 - LOWAMA NIDANA 
+
+####   CHAMPA KALHARI
+
+- 33 - HINDI SONG  
+- 34 - MAL PAYE  
+- 35 - HINDI SONG  
+- 36 - HINDI SONG 
+- 37 - HINDI SONG 
+- 38 - HINDI SONG  
+
+####   ARROW STAR
+
+- 39 - OYA RUWA 
+- 40 - GEWAL GANE 
+- 41 - MAHA RAA 
+
+####   NUWAN GUNAWARDANA
+
+- 42 - KANDULENMA GAYU  
+- 43 - KIRI MUHUDU  
+- 44 - LUNUYI BATHUYI  
+- 45 - DEKANA  
+- 46 - PAVI GIYAWE  
+- 47 - HINDI SONG 
+
+####   THEEKSHANA ANURADHA
+
+
+- 48 - SANDA RENU 
+- 49 - PAMA U00 
+- 50 - SAYAM KIRILLI  
+- 51 - AYETH HANDANNA 
+
+
+####  ARROW STAR
+
+- 52 - END NONSTOP  
+
