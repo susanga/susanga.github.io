@@ -734,6 +734,21 @@ pre code {
     .top-header .header-logo, .top-header .header-call-out {
       width: 50%; } }
 
+.top-header .header-call-out .advert-here {
+  border: 1px solid #fff;
+  background: transparent;
+  height: 100px;
+  width: 300px;
+  line-height: 100px;
+  display: block;
+  float: right;
+  cursor: pointer;
+  color: #fff;
+  text-shadow: #ccc 0px 1px 6px; }
+  .top-header .header-call-out .advert-here:hover, .top-header .header-call-out .advert-here:focus, .top-header .header-call-out .advert-here:active {
+    text-decoration: underline;
+    color: #fff; }
+
 .top-header .header-logo .logo {
   float: left;
   text-align: center;
@@ -1418,6 +1433,11 @@ pre code {
   text-align: center;
   margin: 0 auto; }
 
+.album-image .album-caption {
+  text-align: left;
+  font-style: italic;
+  color: #555; }
+
 .toolbar-actions {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1757,23 +1777,6 @@ ul.pagination li.active a, ul.pagination li.active span {
   border-bottom: none;
   color: #d14836; }
 
-.live-show-banner {
-  font-size: 30px;
-  font-size: 1.875rem;
-  text-align: center;
-  padding: 1em;
-  background-color: #ccc;
-  line-height: 1.4; }
-  .live-show-banner a {
-    text-decoration: none;
-    border-bottom: none; }
-    .live-show-banner a i.fa {
-      color: #d14836; }
-    .live-show-banner a:hover, .live-show-banner a:focus, .live-show-banner a:active {
-      color: #d14836;
-      text-decoration: none;
-      border-bottom: none; }
-
 .common-page-wrapper {
   padding: 16px; }
 
@@ -1789,3 +1792,55 @@ ul.pagination li.active a, ul.pagination li.active span {
   font-size: 0.8125rem;
   color: #017785;
   font-weight: 600; }
+
+.home-page-middle-row {
+  width: 100%;
+  display: block;
+  overflow: hidden; }
+
+.home-page-middle-row .three-column {
+  height: 100px;
+  background-color: #eee;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 0 20px;
+  line-height: 100px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: #017785;
+  transition: background-color 0.3s; }
+  @media only screen and (min-width: 768px) {
+    .home-page-middle-row .three-column {
+      width: 33.3%;
+      float: left; } }
+  .home-page-middle-row .three-column:nth-child(2) {
+    border: 1px solid #ccc; }
+    @media only screen and (min-width: 768px) {
+      .home-page-middle-row .three-column:nth-child(2) {
+        border-top: none;
+        border-bottom: none;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc; } }
+  .home-page-middle-row .three-column:hover, .home-page-middle-row .three-column:focus, .home-page-middle-row .three-column:active {
+    background-color: #e1e1e1;
+    text-decoration: none;
+    border-bottom: none; }
+  .home-page-middle-row .three-column:active {
+    background-color: #c8c8c8; }
+
+.home-page-middle-row .three-column.live-show-banner {
+  font-size: 30px;
+  font-size: 1.875rem;
+  color: #000 !important;
+  text-decoration: none;
+  border-bottom: none; }
+  .home-page-middle-row .three-column.live-show-banner i.fa {
+    padding-left: 10px;
+    color: #d14836;
+    font-size: 34px; }
+  .home-page-middle-row .three-column.live-show-banner:hover, .home-page-middle-row .three-column.live-show-banner:focus, .home-page-middle-row .three-column.live-show-banner:active {
+    color: #d14836 !important;
+    text-decoration: none;
+    border-bottom: none; }

@@ -288,6 +288,26 @@ img {
     padding: 16px 0;
 }
 
+.top-header .header-call-out {
+    .advert-here {
+        border: 1px solid #fff;
+        background: transparent;
+        height: 100px;
+        width: 300px;
+        line-height: 100px;
+        display: block;
+        float: right;
+        cursor: pointer;
+        color: #fff;
+        text-shadow: #ccc 0px 1px 6px;
+
+        &:hover, &:focus, &:active {
+            text-decoration: underline;
+            color: #fff;
+        }
+    }
+}
+
 .top-header .header-logo .logo {
     float: left;
     text-align: center;
@@ -950,6 +970,7 @@ img {
     border-bottom: 1px solid #eee;
 }
 .album-image img { text-align: center; margin: 0 auto;}
+.album-image .album-caption { text-align: left; font-style: italic; color: #555;}
 
 
 .toolbar-actions {
@@ -1271,25 +1292,7 @@ ul.pagination li {
     }
 }
 
-.live-show-banner {
-    @include font-size(30px);
-    text-align:center;
-    padding: 1em;
-    background-color: #ccc;
-    line-height: 1.4;
-    a {
-        text-decoration: none;
-        border-bottom: none;
-        i.fa {
-            color: #d14836;
-        }
-        &:hover, &:focus, &:active {
-            color: #d14836;
-            text-decoration: none;
-            border-bottom: none;
-        }
-    }
-}
+
 
 .common-page-wrapper {
     padding: 16px;
@@ -1307,4 +1310,62 @@ ul.pagination li {
     @include font-size(13px);
     color: $color-1;
     font-weight: 600;
+}
+
+
+.home-page-middle-row {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.home-page-middle-row .three-column {
+    height: 100px;
+    background-color: #eee;
+    @include column(1);
+    @include MQ(M) {
+        @include column(.333);
+    }
+    text-align: center;
+    padding: 0 20px;
+    line-height: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 13px;
+    color: $color-1;
+    transition: background-color .3s;
+    &:nth-child(2) {
+        border: 1px solid #ccc;
+        @include MQ(M) {
+            border-top: none;
+            border-bottom: none;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+        }
+    }
+
+    &:hover, &:focus, &:active {
+        background-color: darken(#eee, 5%);
+        text-decoration: none;
+        border-bottom: none;
+    }
+    &:active {
+        background-color: darken(#eee, 15%);
+    }
+}
+
+.home-page-middle-row .three-column.live-show-banner {
+    @include font-size(30px);
+    color: #000 !important;
+    text-decoration: none;
+    border-bottom: none;
+    i.fa {
+        padding-left: 10px;
+        color: #d14836;
+        font-size: 34px;
+    }
+    &:hover, &:focus, &:active {
+        color: #d14836 !important;
+        text-decoration: none;
+        border-bottom: none;
+    }
 }

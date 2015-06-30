@@ -15,7 +15,7 @@ published: true
       </ul>
     </div>
   </div>
-  <div class="main-slide">
+  <div class="main-slide" style="display:none">
     <img
     src="{{ '/assets/images/slider/slider-4.jpg' | prepend: site.baseurl | prepend: site.url }}"
     alt="{{ site.title }}" />
@@ -26,7 +26,7 @@ published: true
       </ul>
     </div>
   </div>
-  <div class="main-slide">
+  <div class="main-slide" style="display:none">
     <img
     src="{{ '/assets/images/slider/slider-2.jpg' | prepend: site.baseurl | prepend: site.url }}"
     alt="{{ site.title }}" />
@@ -37,10 +37,18 @@ published: true
       </ul>
     </div>
   </div>
-</div>  
-<div class="live-show-banner">
-  <a href="{{ '/live/' | prepend: site.baseurl | prepend: site.url }}">
-  Next Live Event
-  <i class="fa fa-youtube-play"></i>
+</div>
+<div class="home-page-middle-row">
+  <a class="three-column live-show-banner" href="{{ '/live/' | prepend: site.baseurl | prepend: site.url }}" title="SVT Live broadcast">
+    Next Live Event<i class="fa fa-youtube-play"></i>
   </a>
+  <a class="three-column" title="Advertise here" href="{{ '/advertise' | prepend: site.baseurl | prepend: site.url }}">
+    Advertise Here - 0713132995
+  </a>
+  <a class="three-column" title="Advertise here" href="{{ '/advertise' | prepend: site.baseurl | prepend: site.url }}">
+    Advertise Here - 0713132995
+  </a>
+</div>
+<div class="live-show-banner">
+  
 </div>
