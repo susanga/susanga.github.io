@@ -831,7 +831,7 @@ pre code {
           flex-direction: column;
   overflow: hidden;
   display: block;
-  height: 100%;
+  height: auto;
   width: 100%;
   background: #FFFFFF;
   -ms-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06);
