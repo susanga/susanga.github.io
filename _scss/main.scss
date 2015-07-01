@@ -970,7 +970,17 @@ img {
     border-bottom: 1px solid #eee;
 }
 .album-image img { text-align: center; margin: 0 auto;}
-.album-image .album-caption { text-align: left; font-style: italic; color: #555;}
+.album-image .album-caption { 
+    text-align: left;
+    font-style: normal;
+    color: #555;
+    font-size: 12px;
+
+    .fa {
+        padding-left: 1px;
+        font-size: 13px;
+    }
+}
 
 
 .toolbar-actions {
@@ -1368,4 +1378,36 @@ ul.pagination li {
         text-decoration: none;
         border-bottom: none;
     }
+}
+.pricing-info { border-bottom: 1px solid #eee; }
+.pricing-info h3 { margin-top: 5px; }
+.pricing-info ul { padding-top: 10px; }
+.pricing-info ul li {
+    display: block;
+    padding-bottom: 15px;
+}
+.pricing-info ul li span {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.pricing-info ul li span.pricing-item {
+    padding-left: 10px;
+    font-size: 14px;
+
+    strong { font-weight: 600; }
+
+}
+.pricing-info ul li span.pricing-number {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #017785;
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    vertical-align: middle;
+    font-size: 17px;
 }
