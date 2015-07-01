@@ -3,6 +3,9 @@ var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
+var uglify      = require('gulp-uglify');
+var ngAnnotate  = require('gulp-ng-annotate');
+var rename      = require('gulp-rename');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -49,6 +52,13 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('assets/css'));
+});
+
+gulp.task('compress', function() {
+  return gulp.src('assets/js/app.js')
+    .pipe(ngAnnotate())
+    .pipe(uglify())
+    .pipe(gulp.dest('assets/js/9812322/'));
 });
 
 /**

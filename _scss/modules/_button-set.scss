@@ -37,6 +37,22 @@
   }
 }
 
+.btn span {
+  position: relative;
+}
+.btn span .fa {
+  position: absolute;
+  right: -18px;
+  top: 3px;
+}
+
+.btn[disabled] {
+  @extend %button;
+  background-color: $color-1 !important;
+  border-color: opacity($color-1);
+  color: $color-white !important;
+}
+
 .btn-disabled {
   @extend %button;
   border-color: $gray-lighter;

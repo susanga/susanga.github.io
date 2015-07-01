@@ -143,7 +143,7 @@ ul.social-media li a.rss {
 /*
  * Button set module
  */
-.btn, .btn-disabled {
+.btn, .btn[disabled], .btn-disabled {
   padding: 20px 25px;
   line-height: 5px;
   position: relative;
@@ -160,9 +160,9 @@ ul.social-media li a.rss {
   -ms-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   -o-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
-  .btn:hover, .btn-disabled:hover, .btn:focus, .btn-disabled:focus {
+  .btn:hover, .btn[disabled]:hover, .btn-disabled:hover, .btn:focus, .btn[disabled]:focus, .btn-disabled:focus {
     transition: background 0.2s; }
-  .btn:active, .btn-disabled:active {
+  .btn:active, .btn[disabled]:active, .btn-disabled:active {
     -webkit-transform: translateY(1px);
     -ms-transform: translateY(1px);
     transform: translateY(1px); }
@@ -174,6 +174,19 @@ ul.social-media li a.rss {
   .btn:hover, .btn:focus {
     border-color: #01616c;
     background: rgba(0, 97, 107, 0.8); }
+
+.btn span {
+  position: relative; }
+
+.btn span .fa {
+  position: absolute;
+  right: -18px;
+  top: 3px; }
+
+.btn[disabled] {
+  background-color: #017785 !important;
+  border-color: rgba(1, 119, 133, 0.8);
+  color: #FFFFFF !important; }
 
 .btn-disabled {
   border-color: #eeeeee;
@@ -297,13 +310,18 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #000;
-  background-image: url('../images/bg-mobile.jpg');
-  -webkit-backface-visibility: hidden;
-  /* Chrome, Safari, Opera */
-  backface-visibility: hidden; }
+  background-image: url('../images/bg-mobile.jpg'); }
   @media only screen and (min-width: 768px) {
     body {
       background-image: url('../images/bg-desktop.jpg'); } }
+
+/* 
+  Allow angular.js to be loaded in body, hiding cloaked elements until 
+  templates compile.  The !important is important given that there may be 
+  other selectors that are more specific or come later and might alter display.  
+ */
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important; }
 
 /* Prevent scroll on narrow devices */
 html, body {
@@ -403,7 +421,7 @@ h6, .h6 {
     #TYPOGRAPHY-STRONG
 \*------------------------------------*/
 b, strong, .bold {
-  font-weight: bold; }
+  font-weight: 600; }
 
 /*------------------------------------*\
     #TYPOGRAPHY-ITALIC
@@ -1884,3 +1902,211 @@ ul.pagination li.active a, ul.pagination li.active span {
   font-weight: 600;
   vertical-align: middle;
   font-size: 17px; }
+
+.advert-form {
+  padding-top: 20px; }
+  .advert-form div.form-wrapper {
+    padding-top: 10px; }
+  .advert-form label {
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 5px; }
+  .advert-form .btn {
+    margin-top: 5px;
+    display: block;
+    width: 100%; }
+  .advert-form .form-control-feedback {
+    top: 22px !important;
+    font-size: 10px; }
+    .advert-form .form-control-feedback .fa-check {
+      color: #009a00; }
+  .advert-form .vaildation-error {
+    display: block;
+    font-size: 11px;
+    color: #ff1a1a;
+    line-height: 1.3;
+    padding-top: 3px; }
+
+.form-success-note {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000;
+          perspective: 1000; }
+
+.form-success-note p {
+  text-align: center; }
+
+.form-success-note.ng-hide-remove {
+  -webkit-animation: zoomIn 0.5s;
+  animation: zoomIn 0.5s; }
+
+.form-wrapper {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000;
+          perspective: 1000; }
+
+.form-wrapper.ng-hide-add {
+  -webkit-animation: zoomOut 0.3s;
+  animation: zoomOut 0.3s; }
+
+.form-wrapper.ng-hide-remove {
+  -webkit-animation: fadeIn 0.3s;
+  animation: fadeIn 0.3s; }
+
+.check-wrapper {
+  position: relative;
+  height: 52px;
+  overflow: hidden; }
+
+.check {
+  width: 50px;
+  height: 50px;
+  background: #e5e5e5;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0px -4px 4px 0px rgba(255, 255, 255, 0.75), inset 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  cursor: pointer; }
+
+.check:before {
+  content: "";
+  background: #fff;
+  position: absolute;
+  border-radius: 50%;
+  top: 9%;
+  left: 9%;
+  right: 9%;
+  bottom: 9%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08); }
+
+.check:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-color: #017785;
+  border-width: 0;
+  border-style: solid; }
+
+.check .check-icon {
+  position: absolute;
+  z-index: 3;
+  top: 1%;
+  left: 28%;
+  width: 45%;
+  fill: #e5e5e5; }
+
+.check:after {
+  transition: ease-out 0.6s all;
+  border-width: 25px; }
+
+.check .check-icon {
+  fill: #fff;
+  -webkit-animation: bounce 2s;
+  animation: bounce 2s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+
+  50% {
+    opacity: 1; } }
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+
+  50% {
+    opacity: 1; } }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes zoomOut {
+  0% {
+    opacity: 1; }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+
+  100% {
+    opacity: 0; } }
+
+@keyframes zoomOut {
+  0% {
+    opacity: 1; }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+
+  100% {
+    opacity: 0; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0; } }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0; } }
