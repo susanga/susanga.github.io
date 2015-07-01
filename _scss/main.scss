@@ -451,8 +451,12 @@ img {
 }
 
 .content-wrapper .post .sidebar { 
-    width: 270px;
-    max-width: 270px;
+
+    width: 100%;
+    @include MQ(M) {
+        width: 270px;
+        max-width: 270px;
+    }
     padding: 16px;
     border-left: 1px solid #eee;
 }

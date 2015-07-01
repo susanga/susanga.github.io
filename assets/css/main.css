@@ -906,10 +906,13 @@ pre code {
   margin-top: 0; }
 
 .content-wrapper .post .sidebar {
-  width: 270px;
-  max-width: 270px;
+  width: 100%;
   padding: 16px;
   border-left: 1px solid #eee; }
+  @media only screen and (min-width: 768px) {
+    .content-wrapper .post .sidebar {
+      width: 270px;
+      max-width: 270px; } }
 
 .featured-videos {
   display: -webkit-flex;
