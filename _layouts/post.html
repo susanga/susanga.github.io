@@ -121,7 +121,7 @@ layout: default
             <span ng-show="advertForm.advert_message.$error.maxlength" class="vaildation-error">Message is too long. Must be less than 255 characters</span>
           </div>
           <div class="form-group">
-            <button type="submit" ng-disabled="loadingSubmit" class="btn btn-default" ng-click="submitForm()">
+            <button type="submit" ng-disabled="advertForm.$valid || loadingSubmit" class="btn btn-default" ng-click="submitForm()">
             <span class="" ng-show="!loadingSubmit" ng-cloak="">Send</span>
             <span class="" ng-show="loadingSubmit" ng-cloak="">Sending... <i class="fa fa-circle-o-notch fa-spin"></i></span>
             </button>
