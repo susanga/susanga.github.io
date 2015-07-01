@@ -74,7 +74,7 @@ layout: default
         <p>Leave a <strong>message</strong> if you interested in banner advertising</p>
         <form name="advertForm" novalidate>
           <div class="form-group has-feedback">
-            <label for="advert-name">Your name</label>
+            <label for="advert-name">Your name <span class="required">*</span></label>
             <input type="text" name="advert_name" ng-model="advert.name" class="form-control" id="advert-name" placeholder="Name" required>
             <span ng-show="advertForm.advert_name.$valid && !advertForm.advert_name.$pristine" class="form-control-feedback" aria-hidden="true"><i class="fa fa-fw fa-check"></i></span>
             <span ng-show="advertForm.advert_name.$invalid && !advertForm.advert_name.$pristine" class="vaildation-error">
@@ -82,18 +82,7 @@ layout: default
             </span>
           </div>
           <div class="form-group has-feedback">
-            <label for="advert_email">Email address</label>
-            <input type="email" name="advert_email" ng-model="advert.email" class="form-control" id="advert-email" placeholder="Email" required>
-            <span ng-show="advertForm.advert_email.$valid && !advertForm.advert_email.$pristine" class="form-control-feedback" aria-hidden="true"><i class="fa fa-fw fa-check"></i></span>
-            <span ng-show="advertForm.advert_email.$error.required && !advertForm.advert_email.$pristine" class="vaildation-error">
-              Email is required
-            </span>
-            <span ng-show="advertForm.advert_email.$error.email && !advertForm.advert_email.$pristine" class="vaildation-error">
-              Invalid email
-            </span>
-          </div>
-          <div class="form-group has-feedback">
-            <label for="advert_email">Contact number</label>
+            <label for="advert_email">Contact number <span class="required">*</span></label>
             <input type="phone" name="advert_tel" ng-model="advert.contactNumber" class="form-control" id="advert_tel" placeholder="eg: 0713132995" ng-minlength="10" ng-maxlength="10" required ng-pattern="/^\d+$/" >
             <span ng-show="advertForm.advert_tel.$valid && !advertForm.advert_tel.$pristine" class="form-control-feedback" aria-hidden="true"><i class="fa fa-fw fa-check"></i></span>
             <span ng-show="advertForm.advert_tel.$error.required && !advertForm.advert_tel.$pristine" class="vaildation-error">
@@ -101,8 +90,19 @@ layout: default
             </span>
             <span ng-show="(advertForm.advert_tel.$error.pattern && !advertForm.advert_tel.$pristine) || (advertForm.advert_tel.$error.minlength && !advertForm.advert_tel.$pristine)" class="vaildation-error">Not a valid number!</span>
           </div>
+          <div class="form-group has-feedback">
+            <label for="advert_email">Email address</label>
+            <input type="email" name="advert_email" ng-model="advert.email" class="form-control" id="advert-email" placeholder="Email">
+            <span ng-show="advert.email && advertForm.advert_email.$valid && !advertForm.advert_email.$pristine" class="form-control-feedback" aria-hidden="true"><i class="fa fa-fw fa-check"></i></span>
+            <!-- <span ng-show="advertForm.advert_email.$error.required && !advertForm.advert_email.$pristine" class="vaildation-error"> -->
+              <!-- Email is required -->
+            <!-- </span> -->
+            <span ng-show="advertForm.advert_email.$error.email && !advertForm.advert_email.$pristine" class="vaildation-error">
+              Invalid email
+            </span>
+          </div>          
           <div class="form-group">
-            <label for="advert_select">Banner Option</label>
+            <label for="advert_select">Banner Option <span class="required">*</span></label>
             <select id="advert_select" name="advert_select" class="form-control" ng-model="advert.option" required>              
             <option ng-selected="[[option.name == advert.option]]"
                         ng-repeat="option in bannerOptions"
@@ -121,7 +121,7 @@ layout: default
             <span ng-show="advertForm.advert_message.$error.maxlength" class="vaildation-error">Message is too long. Must be less than 255 characters</span>
           </div>
           <div class="form-group">
-            <button type="submit" ng-disabled="advertForm.$valid || loadingSubmit" class="btn btn-default" ng-click="submitForm()">
+            <button type="submit" ng-disabled="!advertForm.$valid || loadingSubmit" class="btn btn-default" ng-click="submitForm()">
             <span class="" ng-show="!loadingSubmit" ng-cloak="">Send</span>
             <span class="" ng-show="loadingSubmit" ng-cloak="">Sending... <i class="fa fa-circle-o-notch fa-spin"></i></span>
             </button>

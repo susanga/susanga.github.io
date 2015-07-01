@@ -1926,6 +1926,9 @@ ul.pagination li.active a, ul.pagination li.active span {
     color: #ff1a1a;
     line-height: 1.3;
     padding-top: 3px; }
+  .advert-form span.required {
+    color: #ff1a1a;
+    font-size: 11px; }
 
 .form-success-note {
   -webkit-backface-visibility: hidden;
