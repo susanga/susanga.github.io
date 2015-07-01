@@ -756,13 +756,15 @@ pre code {
   border: 1px solid #fff;
   background: transparent;
   height: 100px;
-  width: 300px;
   line-height: 100px;
   display: block;
   float: right;
   cursor: pointer;
   color: #fff;
   text-shadow: #ccc 0px 1px 6px; }
+  @media only screen and (min-width: 768px) {
+    .top-header .header-call-out .advert-here {
+      width: 300px; } }
   .top-header .header-call-out .advert-here:hover, .top-header .header-call-out .advert-here:focus, .top-header .header-call-out .advert-here:active {
     text-decoration: underline;
     color: #fff; }
