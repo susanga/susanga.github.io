@@ -34,21 +34,21 @@ downloadLink: http://www.mediafire.com/download/v98e4s1t3jttxqv/ALL_RIGHT_LIVE_I
 -  17 - BONNA KOTTHAMALLI 
 -  18 - MS NONSTOP 
   
-    #### ASANKA PRIYAMANTHA
+#### ASANKA PRIYAMANTHA
   
 -  19 - ADAREYI MAN  
 -  20 - ATHUL HITHE 2 IN 1 
 -  21 - DASA MASAK 
 -  22 - NUPURUDU OBA 
   
-  #### CHAMARA RANAWAKA
+#### CHAMARA RANAWAKA
   
 -  23 - JANDI PAHATA 
 -  24 - KAMBI THAPPETA 
 -  25 - PITAKOTUWE  
 -  26 - BATTI  
   
-  #### VIRAJ PERERA
+#### VIRAJ PERERA
   
   
 -  27 - MAGE DESIN 
@@ -56,7 +56,7 @@ downloadLink: http://www.mediafire.com/download/v98e4s1t3jttxqv/ALL_RIGHT_LIVE_I
 -  29 - HADAWATHA GAHENA 
 -  30 - ULATH EKAYI  
   
-  #### ROSHAN FRENANDO
+#### ROSHAN FRENANDO
   
   
 -  31 - DUKA DANNE 
@@ -65,13 +65,13 @@ downloadLink: http://www.mediafire.com/download/v98e4s1t3jttxqv/ALL_RIGHT_LIVE_I
 -  34 - KATUTH KAKA 
   
   
-  ####  SHASHIKA SEMINI
+####  SHASHIKA SEMINI
   
 -  35 - RAA YAME  
 -  36 - SUNO CHAMPA  
   
   
-  #### BUDDIKA USHAN
+#### BUDDIKA USHAN
   
 -  37 - ME SANDA  
 -  38 - INGA SUNGA  
@@ -79,7 +79,7 @@ downloadLink: http://www.mediafire.com/download/v98e4s1t3jttxqv/ALL_RIGHT_LIVE_I
 -  40 - MAN LOKE    
   
   
-  #### RUWAN HETTIARACHCHI
+#### RUWAN HETTIARACHCHI
   
 -  41 - KANDULU BINDUWAK  
 -  42 - DUKA WEDI 
@@ -87,7 +87,7 @@ downloadLink: http://www.mediafire.com/download/v98e4s1t3jttxqv/ALL_RIGHT_LIVE_I
 -  44 - ALEN WELE 
 -  45 - NODEKA INNA  
   
-  #### ALL RIGHT
+#### ALL RIGHT
   
 -  46 - ALL RIGHT NEW NONSTOP  
 -  47 - DOLOS MAHE 
