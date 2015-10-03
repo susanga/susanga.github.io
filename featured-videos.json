@@ -2,7 +2,7 @@
 layout: null
 ---
 {
-  "audios": [
+  "featuredVideos": [
   {% assign posts = site.data.featured-videos limit: 5 %}
    {% for post in posts %}
       {
