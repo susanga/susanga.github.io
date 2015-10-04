@@ -7,6 +7,7 @@ layout: null
    {% for post in posts %}
       {
           "title": "{{ post.title }}",
+          "summary": "{{ post.summary }}",
           "href": "{{ post.url | prepend: site.baseurl | prepend: site.url }}", 
           "type": "{{ post.pageType }}",
           "thumbnailSmall": "{{ post.thumbnailSmall }}",
