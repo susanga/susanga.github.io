@@ -4,12 +4,14 @@ layout: null
 {
   "featuredVideos": [
   {% assign posts = site.data.featured-videos limit: 5 %}
+  {% assign count = 1 %}
    {% for post in posts %}
       {
+          "id": "{{ count }}"
           "title": "{{ post.title }}",          
           "summary": "{{ post.summary }}",
           "thumbnail": "{{ post.thumbnail }}"
-      }{% if forloop.last  %}{% else %},{% endif %}
+      }{% count++ %}{% if forloop.last  %}{% else %},{% endif %}
   {% endfor %}
   ]
 }
