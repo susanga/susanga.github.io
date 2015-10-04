@@ -10,7 +10,8 @@ layout: null
           "id": "{{ forloop.index }}",
           "title": "{{ post.title }}",          
           "summary": "{{ post.summary }}",
-          "thumbnail": "{{ post.thumbnail }}"
+          "thumbnail": "{{ post.thumbnail }}",
+          "youtubeId": "{{ post.youtubeId }}"
       }{% assign count = count + 1 %}{% if forloop.last  %}{% else %},{% endif %}
   {% endfor %}
   ]
