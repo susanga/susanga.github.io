@@ -4,7 +4,7 @@ layout: null
 {
   "videos": [
   {% assign posts = (site.posts | where: "pageType" , "video") %}
-   {% for post in posts reversed %}
+   {% for post in posts %}
       {
           "title": "{{ post.title }}",
           "href": "{{ post.url | prepend: site.baseurl | prepend: site.url }}", 
