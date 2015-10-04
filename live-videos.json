@@ -4,8 +4,10 @@ layout: null
 {
   "videos": [
   {% assign posts = (site.posts | where: "pageType" , "video") %}
+  {% assign count = 1 %}
    {% for post in posts %}
       {
+          "id": "{{ forloop.index }}",
           "title": "{{ post.title }}",
           "summary": "{{ post.summary }}",
           "href": "{{ post.url | prepend: site.baseurl | prepend: site.url }}", 
@@ -13,7 +15,7 @@ layout: null
           "thumbnailSmall": "{{ post.thumbnailSmall }}",
           "thumbnail": "{{ post.thumbnail }}",
           "youtubeId": "{{ post.youtubeId }}"
-      }{% if forloop.last  %}{% else %},{% endif %}
+      }{% assign count = count + 1 %}{% if forloop.last  %}{% else %},{% endif %}
   {% endfor %}
   ]
 }
