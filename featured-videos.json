@@ -7,7 +7,7 @@ layout: null
   {% assign count = 1 %}
    {% for post in posts %}
       {
-          "id": "{{ count }}"
+          "id": "{{ count }}",
           "title": "{{ post.title }}",          
           "summary": "{{ post.summary }}",
           "thumbnail": "{{ post.thumbnail }}"
