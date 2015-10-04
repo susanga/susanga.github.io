@@ -13,6 +13,7 @@ layout: null
           "href": "{{ post.url | prepend: site.baseurl | prepend: site.url }}", 
           "type": "{{ post.pageType }}",
           "thumbnailSmall": "{{ post.thumbnailSmall }}",
+          "thumbnail": "{{ post.thumbnail }}",
           "downloadLink": "{{ post.downloadLink }}"
       }{% assign count = count + 1 %}{% if forloop.last  %}{% else %},{% endif %}
   {% endfor %}
