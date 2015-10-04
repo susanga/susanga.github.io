@@ -9,7 +9,8 @@ layout: null
           "title": "{{ post.title }}",
           "href": "{{ post.url | prepend: site.baseurl | prepend: site.url }}", 
           "type": "{{ post.pageType }}",
-          "thumbnailSmall": "{{ post.thumbnailSmall }}"
+          "thumbnailSmall": "{{ post.thumbnailSmall }}",
+          "thumbnail": "{{ post.thumbnail }}"
       }{% if forloop.last  %}{% else %},{% endif %}
   {% endfor %}
   ]
