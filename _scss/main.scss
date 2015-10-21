@@ -1690,7 +1690,12 @@ ul.pagination li {
   }
 }
 
-.live-show-banner.add-unit {
-    height: 150px;
+.live-show-banner-add-unit {
+    position:relative;
+    overflow: hidden;
+    height: 70px;
     display: block;
+    @include MQ(M) {
+        height: 150px;    
+    }
 }

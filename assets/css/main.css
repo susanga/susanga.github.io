@@ -2119,6 +2119,11 @@ ul.pagination li.active a, ul.pagination li.active span {
   100% {
     opacity: 0; } }
 
-.live-show-banner.add-unit {
-  height: 150px;
+.live-show-banner-add-unit {
+  position: relative;
+  overflow: hidden;
+  height: 70px;
   display: block; }
+  @media only screen and (min-width: 768px) {
+    .live-show-banner-add-unit {
+      height: 150px; } }
