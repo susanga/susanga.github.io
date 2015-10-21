@@ -2118,3 +2118,7 @@ ul.pagination li.active a, ul.pagination li.active span {
 
   100% {
     opacity: 0; } }
+
+.live-show-banner.add-unit {
+  height: 150px;
+  display: block; }
