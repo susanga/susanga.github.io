@@ -1,0 +1,81 @@
+---
+layout: post
+title: "ALL RIGHT LIVE IN HABARAKADA 2015"
+pageType: audio
+thumbnail: 140x210/140210.jpg
+thumbnailSmall: 80x44/8044.jpg
+summary: ALL RIGHT LIVE IN HABARAKADA 2015
+downloadLink: http://www.mediafire.com/download/a0u9d9p28b8zmq7/ALLRIGHT_LIVE_IN_HABARAKADA_2015.rar
+---
+
+
+{% include album-image.html imgSource ='500700.jpg' %}
+
+### Track list 
+
+#### ALL RIGHT
+
+- 01 - LANKA MATHA
+- 02 - ME SINHALA 
+- 03 - OBA KIYANNE  
+- 04 - ANANTHAYEN PIYABA  
+- 05 - NEW STYLE NONSTOP 
+- 06 - ADDRESS NA 
+- 07 - AMMA NEW SONG
+- 08 - PAPARE NONSTOP  
+- 09 - MAGE KALIN  
+- 10 - SARI PODITTHAK 
+- 11 - HINDI NONSTOP 
+- 12 - MAGE SWEETY 
+- 13 - TEMIL SONG 
+- 14 - WASANAWA 
+- 15 - RAN THILAKA 
+- 16 - MS NONSTOP 
+
+
+####   ROSHAN FERNANDO
+
+
+- 17 - OBATA THIYENA 
+- 18 - HAMU WENNATA 
+- 19 - DUKA DANNE 
+- 20 - OBA HARIMA 
+- 21 - ROSHAN NONSTOP 
+
+
+####   NADEERA NONIS
+
+
+- 22 - HITHATA HITHA 
+- 23 - AMATHAKA NOWENA  
+- 24 - DURAS WELA  
+- 25 - DAWENA DUKA 
+- 26 - PUNCHI SAMANALI 
+- 27 - NADEERA NONSTOP  
+- 28 - DAWENA DUKA PAPARE
+
+
+####   DIMANKA WELLALAGE
+
+
+- 29 - AWASANA PREMAYAYI  
+- 30 - NIDUKIN INU 
+- 31 - PARA KIYANA 
+- 32 - LIYATHMBARA 
+
+
+####   JUDE ROGENS
+
+
+- 33 - HIMALETA WADA 
+- 34 - WEN WENNATA  
+- 35 - ROSA DETHOLIN  
+- 36 - HOREN BALA 
+
+
+#### ALL RIGHT
+
+- 42 - END NONSTOP 
+
+
+
