@@ -1,0 +1,85 @@
+---
+layout: post
+title: "ALL RIGHT LIVE IN KATUNERIYA 2015"
+pageType: audio
+thumbnail: Cover-ALL-RIGHT140210.jpg
+thumbnailSmall: Cover-ALL-RIGHT8044.jpg
+summary: ALL RIGHT LIVE IN KATUNERIYA 2015
+downloadLink: http://www.mediafire.com/download/m0sq7v405mrnaim/ALL+RIGHT+NATHALE+LIVE+IN+KATUNERIYA+2015.rar
+---
+
+
+{% include album-image.html imgSource ='Cover-ALL-RIGHT500700.jpg' %}
+
+### Track list 
+
+####   ALL RIGHT
+
+- 01 - ALL RIGHT INTRO 
+- 02 - CHRISTMAS SONG NEW  
+- 03 - HIMIN SARE NEW 
+- 04 - OBE SUWANDA NEW  
+- 05 - PREAMAYE VILTERE NEW  
+- 06 - RUDURU THURU NEW  
+- 07 - ENGLISH SONG NEW 
+- 08 - NEW CLASSIC NONSTOP  
+- 09 - PAPARE NONSTOP  
+- 10 - HINAWENNA EPA 
+- 11 - ADDRESS NA 
+- 12 - NEW MIX NONSTOP 
+- 13 - MAGE KALIN GIRL 
+- 14 - SARI PODITTHAK  
+- 15 - HINDI NONSTOP  
+- 16 - DOLOS MAHE
+- 17 - TEMIL SONG 
+- 18 - NEW STYLE NONSTOP  
+- 19 - MS NONSTOP 
+
+
+####   SASHIKA NISANSALA
+
+
+- 20 - OBA MA - ACOUSTIC
+- 21 - APA HAMUUNA - ACOUSTIC 
+- 22 - MAL SARA GE 
+- 23 - MAYA 
+
+
+####   SHELTON MUTHUNAMAGE
+
+
+- 24 - ME DEU MADURE  
+- 25 - SAMAWANNA KEWATH  
+- 26 - AWAN HALAKA 
+- 27 - MANOHARI  
+
+
+####   NILANGA SILVA
+
+
+- 28 - SANDA KINNARAVI  
+- 29 - PUN SANDA DA 
+- 30 - KALAPUWA 
+- 31 - NILANGA NONSTOP  
+
+
+####   JAYANTHA PEIRIS
+
+
+- 32 - DESA NILUPUL  
+- 33 - SINHALA SINDU 
+- 34 - ONCHILI CHILI  
+
+ 
+#### ALL RIGHT
+
+
+- 35 - END NONSTOP NEW 
+
+
+
+
+
+
+
+
