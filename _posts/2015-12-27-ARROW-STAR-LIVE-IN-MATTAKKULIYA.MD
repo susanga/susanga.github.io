@@ -1,0 +1,143 @@
+---
+layout: post
+title: "ARROW STAR LIVE IN MATTAKKULIYA 2015"
+pageType: audio
+thumbnail: 140x210/ARCOVER140210.jpg
+thumbnailSmall: 80x44/ARCOVER8044.jpg
+summary: ARROW STAR LIVE IN MATTAKKULIYA
+downloadLink: http://www.mediafire.com/download/vzmn02xtto1be6m/ARROW__STAR_LIVE_IN_MATTAKKULIYA_2015.rar
+---
+
+
+{% include album-image.html imgSource ='ARCOVER500700.jpgARCOVER140210.jpgAR-meegoda-80-44.jpg' %}
+
+### Track list 
+
+####   ARROW STAR  
+
+- 01 - ARROW STAR INTRO 
+- 02 - DEURAM WEHERE  
+- 03 - AMMA 
+- 04 - HADAWATHA GAHENA 
+- 05 - SELFI PULLA 
+- 06 - ENGLISH SONG 
+- 07 - SALLI SALLI 
+- 08 - KATUN SONG 
+- 09 - NIRO NONSTOP 
+- 10 - HINDI NONSTOP 
+- 11 - TEMIL SONG 
+- 12 - LOWAMA NIDANA 
+- 13 - SALA DENETH 
+- 14 - MAHA RAA 
+- 15 - SANDAKEN 
+
+
+####   ISHAK BEG
+
+
+- 16 - BUDDAN SARANAN 
+- 17 - DEVIYANI OBA 
+- 18 - MANU SATHA 
+- 19 - GAME GODE  
+- 20 - MAN LOKE 
+
+
+####   SASHIKA NISANSALA
+
+
+- 21 - OBA ASIPIYA 
+- 22 - DANGAKARA HEENE 
+- 23 - MAL SARA  
+- 24 - MAYA 
+- 25 - APA HAMUNA 
+
+
+####   MERSILIN PATHIRANA
+
+
+- 26 - PIYANENI 
+- 27 - PATA APATA  
+- 28 - MATAKAYA AWADIWA 
+- 29 - PUNCHI DESA  
+
+
+####   ASANGA PRIYAMANTHA
+
+
+- 30 - HIMI NATHI 
+- 32 - UPAN DINE 
+- 33 - ADAREYI MAN 
+- 34 - ATHUL HITHE 
+- 35 - DASA MASAK 
+
+
+####   NIHAL NELSON
+
+
+- 36 - KINKINI HANDATA 
+- 37 - LASSANATA  
+- 38 - ORU PADINNA  
+- 39 - KAWADI 
+
+
+####   DAYARATHNA PERERA
+
+
+- 40 - OBATA SITHA 
+- 41 - DIGU NETH  
+- 42 - BINGU BAMA 
+- 43 - SUWANDA SALANAWA 
+- 44 - WANA MALA  
+
+
+####   AMILA NADEESHANI
+
+
+- 45 - ASAYI 
+- 46 - SEDA THUHINE  
+- 47 - EKATHU WENNA  
+
+
+####   SUSIL FRENANDO
+
+
+- 48 - KODI GAHA 
+- 49 - MAMA ENNE 
+- 50 - MAMA TAXI  
+
+
+####   SARATH RODRIGO
+
+
+- 51 - ISSANA MAGURAN  
+- 52 - GAMMANE 
+
+
+####   JUDE ROGENS
+
+
+- 53 - HIMALETA 
+- 54 - HOREN BALA 
+- 55 - JUDE NONSTOP 
+
+
+####   CHANDANA SEEDUWA SAKURA
+ 
+
+- 56 - SAYAM GALA 
+- 57 - MAL ETHATANO 
+- 58 - ANGARA DAGARA 
+
+
+####   SUPRIA ABESEKARA
+
+
+- 59 - RANGANA RAGUM 
+- 60 - SUPRIYA NONSTOP 
+
+
+
+
+
+
+
