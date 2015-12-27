@@ -9,7 +9,7 @@ downloadLink: http://www.mediafire.com/download/vzmn02xtto1be6m/ARROW__STAR_LIVE
 ---
 
 
-{% include album-image.html imgSource ='ARCOVER500700.jpgARCOVER140210.jpgAR-meegoda-80-44.jpg' %}
+{% include album-image.html imgSource ='ARCOVER500700.jpg' %}
 
 ### Track list 
 
