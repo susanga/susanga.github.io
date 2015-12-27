@@ -2,7 +2,7 @@
 layout: post
 title: "ALL RIGHT LIVE IN KATUNERIYA 2015"
 pageType: audio
-thumbnail: Cover-ALL-RIGHT140210.jpg
+thumbnail: Cover-ALL-RIGHT500700.jpg
 thumbnailSmall: Cover-ALL-RIGHT8044.jpg
 summary: ALL RIGHT LIVE IN KATUNERIYA 2015
 downloadLink: http://www.mediafire.com/download/m0sq7v405mrnaim/ALL+RIGHT+NATHALE+LIVE+IN+KATUNERIYA+2015.rar
