@@ -1,0 +1,118 @@
+---
+layout: post
+title: "SANIDAPA LIVE IN BULATHSINGHALA 2016"
+pageType: audio
+thumbnail: 140x210/bulath140210.jpg
+thumbnailSmall: 80x44/bulath8044.jpg
+summary: SANIDAPA LIVE IN BULATHSINGHALA 2016
+downloadLink: http://www.mediafire.com/download/4ftd22em7r6otgc/SANIDAPA+LIVE+IN+BULATHSINGHALA+2016.rar
+---
+
+
+{% include album-image.html imgSource ='bulath500700.jpg' %}
+
+### Track list 
+
+####   SANIDAPA
+
+- 01 - RANDAMA WAGE 
+- 02 - AMMA AMMA 
+- 03 - ENGLISH SONG 
+- 04 - PODI DUWAGE 
+- 05 - NEELA NUWAN 
+- 06 - HINDI SONG 
+- 07 - WAYANNA SITHARE 
+- 08 - MAHA SAYURE 
+- 09 - ENGLISH SONG 
+- 10 - SANDA PANE 
+- 11 - HINDI SONG 
+- 12 - AMATHAKA KARANNA 
+- 13 - HINDI SONG 
+- 14 - PEM SIHINE 
+- 15 - ANANGAYA MAN 
+- 16 - MAWA AMATAHAKA 
+- 17 - DEKKOTHIN 
+- 18 - FINAL COUNTDOWN 
+- 19 - HINDI SONG 
+
+
+####   SENANAYAKE WERALIYADDA
+
+
+- 20 - DUKA THADA 
+- 21 - PUNCHI HEDAKARIYE 
+- 22 - DINKI NAGO 
+- 23 - SAGARAYA BANDU 
+- 24 - MAL VIYANEN 
+
+
+####   HELAN ATTHANAYAKE
+
+
+- 25 - KAUODO MATA 
+- 26 - MA THARAHA NATHE 
+- 27 - MA GAYANA GEE 
+- 28 - KIWWA TA 
+
+
+####   DANAPALA UDAWATTHA
+
+
+- 29 - MAA ADARANEEYA 
+- 30 - ENGALANTHE 
+- 31 - EA NEELA 
+- 32 - NADEEKA 
+- 33 - MAMA  KU KURU 
+
+
+####   GINGER
+
+
+
+- 34 - OBATA MAN 
+- 35 - DENGU MADURUWA 
+- 36 - KAPILLA 
+- 37 - CRICKET PITTHA 
+
+
+####   ASANKA PRIYAMANTHA
+
+
+
+- 38 - ADAREYI MAN 
+- 39 - ATHUL HITHE 
+- 40 - SANDA ELIYA 
+- 41 - RODA HARTHRE 
+
+
+####   INDIKA PRASARD
+
+
+- 42 - MAGE UNHUMA 
+- 43 - SANADA PANA SE 
+- 44 - SITHA ATHARAMAN 
+
+
+####   RAMESHA LAKSHANI
+
+
+- 45 - AWASANA PREMAYE 
+
+
+####   MD DANUSHIKA
+
+
+- 46 - MAMA ENNE 
+
+
+####   MIYURU SATHSARA
+
+
+- 47 - SURANGANAVEE  
+
+
+####   SANIDAPA
+
+
+- 48 - END NONSTOP 
+
