@@ -1,0 +1,97 @@
+---
+layout: post
+title: "FLASHBACK LIVE IN HIKKADUWA 2016"
+pageType: audio
+thumbnail: 140x210/FBVogtex140210.jpg
+thumbnailSmall: 80x44/FBVogtex8044.jpg
+summary: FLASHBACK LIVE IN HIKKADUWA 
+downloadLink: http://www.mediafire.com/download/utikylc1tj9gy3b/FLASHBACK+LIVE+IN+HIKKADUWA.rar
+---
+
+
+
+{% include album-image.html imgSource ='FBVogtex500700.jpg' %}
+
+### Track list
+
+
+####   FLASHBACK
+
+- 01 - FLASHBACK INTRO 
+- 02 - RANABIME VIRUWO 
+- 03 - OBA NIDANA 
+- 04 - PODI KALE 
+- 05 - KINGSLY NEW NONSTOP 
+- 06 - AHAN INNAWA NAM 
+- 07 - NONSTOP
+- 08 - ENGLISH NEW NONSTOP 
+- 09 - ADARE KIYALA 
+- 10 - DANENA DUK 
+- 11 - SELFi PULLA 
+- 12 - JOTHI NONSTOP 
+- 13 - HITHA HIRI 
+- 14 - BADTAMEEZ DIL 
+- 15 - SARIKI FALL SA 
+- 16 - TEMIL NONSTOP 
+- 17 - KINGLSY NONSTOP 
+- 18 - ROSA 
+- 19 - DIYAKINDURIYA 
+- 20 - AYUBOWAN  
+- 21 - DILI DILI DILISEVEE 
+- 22 - NILLA NAGANA 
+- 23 - GUNDEY NONSTOP 
+- 23 - SANDA WAGE 
+- 24 - SATAKALI 
+
+
+####   SASHIKA NISANSALA
+
+
+
+- 25 - OBA MAA 
+- 26 - DURA MANNA 
+- 27 - APA HAMU UNA 
+- 28 - MAL SARA 
+- 29 - DANGAKARA 
+- 30 - MAYA 
+
+
+####   RODNEY WARNAKULA
+
+
+
+- 31 - RATHU HATTE 
+- 32 - BALAGENAYI 
+- 33 - NANA KAMARE 
+- 34 - JASAYA 
+- 35 - YASA ISURU 
+- 36 - SOBAWADE 
+- 37 - HA HA LANDE 
+- 38 - HANIKA WAREU 
+- 39 - SUWAN SABAN 
+
+
+####   RUWAN HETTIARACHCHI
+
+
+
+- 40 - DUKA WADI 
+- 41 - REWATUNA THARAM  
+- 42 - WEN VEELA GIYADA NEW 
+- 43 - SEETHA MARUTHE 
+- 44 - ALEN WELI 
+- 45 - NODEKA INNA BA 
+- 46 - SURANGANAVEE 
+
+
+####   SAMITH ABESEKARA
+
+
+- 47 - RATAKIN EHA 
+- 48 - SANADA THARAKA 
+
+
+####   FLASHBACK
+
+
+- 49 - END NONSTOP  
