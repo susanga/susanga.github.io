@@ -1,0 +1,227 @@
+---
+layout: post
+title: "PURPLE RANGE LIVE IN OLABODUWA 2016"
+pageType: audio
+thumbnail: 140x210/PRola140210.gif
+thumbnailSmall: 80x44/PRola8044.gif
+summary: PURPLE RANGE LIVE OLABODUWA 2016
+downloadLink: http://www.mediafire.com/download/qxbr8z20zxzscn2/PURPLE+RANGE+LIVE+OLABODUWA+2016.rar
+---
+
+
+{% include album-image.html imgSource ='PRola500700.gif' %}
+
+### Track list 
+
+#### PURPLE RANGE
+
+- 01 - PURPLE RANGE INTRO 
+- 02 - THEDINI VIRAJA 
+- 03 - AMMA 
+- 04 - HIMI NATHI 
+- 05 - DAWASAKA MA 
+- 06 - ANANTHEN PIYAMBA 
+- 07 - WEN VEELA 
+- 08 - DIVIYAMA WAGE 
+- 09 - UMATHU KALA 
+- 10 - EKA YAYE 
+- 11 - ADARAYATA 
+- 12 - PALANCHIYE 
+- 13 - ADI 100 
+- 14 - PITA RATA 
+- 15 - ME KAMANI 
+- 16 - MAHA SENA 
+- 17 - TEMIL SONG 
+- 18 - ISSAN MAGURAN 
+- 19 - HINDI NONSTOP 
+- 20 - GOWE 
+
+
+####  SANATH & MALKANTHI
+
+
+- 21 - MAGE RATATA 
+- 22 - MULU LOWA 
+- 23 - MAMA NAM 
+- 24 - SEETHA RAA 
+
+
+####  CHAMARA RANAWAKA
+
+
+- 28 - GAME AYATA 
+- 29 - BATA DOMBA 
+- 30 - THAKKADA MAL 
+- 31 - GAMMANE 
+
+
+####  AMILA NADEESHANI
+
+
+- 32 - OBA DANNAWADA 
+- 33 - SEDA THUHINE 
+- 34 - HITHUWAKKARA 
+- 35 - DE SAMAN 
+
+
+####  DAMITH ASANKA
+
+
+
+- 36 - ADARE HITHENAWA 
+- 37 - NUWARA ELIYE 
+- 38 - BAGETA SALON 
+- 39 - PAYANA SANDE 
+
+
+####   PUNSIRI SOYZA
+
+
+
+- 40 - ME BUS 
+- 41 - SEVVWANDIYAKATA 
+- 42 - EKAMA MAGAKA 
+- 43 - PEM PRATHNA 
+
+
+####   RODNY WARNAKULA
+
+
+
+- 44 - RATHU HATTE 
+- 45 - HA HA LANDE 
+- 46 - PALANCHIYE 
+- 47 - HANIKA WAREU 
+
+
+####   BUDDIKA EKANAYAKE
+
+
+- 48 - DILIDUNE 
+- 49 - NIYARE 
+- 50 - GOWE 
+
+
+####   NIHAL NELSON
+
+
+- 51 - LASSANATA PIPUNA 
+- 52 - ORU PADINNA 
+- 53 - SOMIYATA 
+
+
+####   ISURU JAYARATHNA
+
+
+- 54 - NAMAL PIPILA 
+- 55 - KURAHAN YAYE 
+- 56 - SEEGIRI LANDUNE 
+
+
+####   MITHRA KAPUGE
+
+
+
+- 57 - DESA NILUPUL 
+- 58 - SINHALA SINDU 
+- 59 - BINDU BINDU 
+
+
+####   ASANKA PRIYAMANTHA
+
+
+
+- 60 - ADAREYI MAN 
+- 61 - ETHUL HITHE 
+- 62 - GOLU DARUWEK 
+
+
+####   MUDITHA JAYAKODI 
+
+
+- 63 - PEM SIHINE 
+- 64 - API DENNA 
+- 65 - GEDARA HITIYA 
+
+
+####   HARSHA CHATHURANGA
+
+
+- 66 - MA SANASA 
+- 67 - ANGANAWO 
+
+
+####   ROUMESH SUGATHAPALA
+
+
+- 68 - HAMUNOWANA 
+- 69 - HUSMA WAGE 
+- 70 - BALA INNAM 
+
+
+####   SHIRAN CHANDANA
+
+
+- 71 - MAMMALA PAPALA 
+- 72 - LENA JAMBU 
+- 73 - ME TATTE PADUNE 
+
+
+####   JUDE ROGENS
+
+
+- 74 - HIMALETA WADA 
+- 75 - WEN WENNATA 
+- 76 - HOREN BALA 
+
+
+####   CHANDANA HETTIARCHCHI
+
+
+- 77 - API KASI 
+- 78 - SAYAM GALA 
+- 79 - MAL EATHANO 
+- 80 - PEMAWATHI 
+
+
+####   SASHIKA NISANSALA
+
+
+- 81 - OBA ASIPIYA 
+- 82 - DANGAKARA HEENE 
+- 83 - MAYA 
+
+
+####   JAGATH PUSHPAKUMARA
+
+- 84 - ASAYI BAYAYI 
+
+
+####   PURPLE RANGE
+
+
+- 85 - END NONSTOP 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
