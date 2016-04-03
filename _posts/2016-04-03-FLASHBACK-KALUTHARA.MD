@@ -1,0 +1,91 @@
+---
+layout: post
+title: "FLASHBACK LIVE IN KALUTHARA 2016"
+pageType: audio
+thumbnail: 140x210/fbasb140.jpg
+thumbnailSmall: 80x44/fbasb80.jpg
+summary: FLASHBACK LIVE IN KALUTHARA 
+downloadLink: http://www.mediafire.com/download/wt7h17png7bem9t/FLASHBACK_LIVE_IN_KALUTHARA_2016.rar
+---
+
+
+
+{% include album-image.html imgSource ='FBASB500.jpg' %}
+
+### Track list
+
+
+####   FLASHBACK
+
+- 01 - FLASHBACK INTRO 
+- 02 - RANA BIME 
+- 03 - THAWA EKA 
+- 04 - ADAREYI KIYALA 
+- 05 - PODI KALE 
+- 06 - ENGLISH SONG 
+- 07 - NONSTOP 
+- 08 - BEAT BOX 
+- 09 - NONSTOP 
+- 10 - HITHA HIRI 
+- 11 - BADTAMEEZ DIL 
+- 12 - HINDI NONSTOP 
+- 13 - THAKKA DOMI 
+- 14 - PISSU VIKARE 
+- 15 - DOLARE 
+- 16 - KATUTH KAKA 
+
+
+####   SHASHIKA NISANSALA
+
+
+- 17 - OBA ASIPIYA 
+- 18 - ASS DEKA PURA 
+- 19 - MAL SARA 
+- 20 - DANGAKARA 
+- 21 - APA HAMU 
+
+
+####   JUDE ROGENS
+
+
+- 22 - HIMALETA WADA 
+- 23 - KANDULEL 
+- 24 - LANGA INNA 
+- 25 - HOREN BALA 
+- 26 - JUDE NONSTOP 
+
+
+####   RUWAN HETTIARACHCHI
+
+
+- 27 - DUKAMA VINDALA 
+- 28 - WEN WEELA 
+- 29 - REWATUNA THARAM 
+- 30 - ALEN WELE 
+- 31 - SURANGANAVEE 
+
+
+####   SHANIKA WANIGASEKARA
+
+
+- 32 - PINI WAHENA 
+- 33 - HINDI SONG 
+- 34 - INGI BINGI 
+- 35 - SHANIKA NONSTOP 
+
+
+####   MG DANUSHKA
+
+
+- 36 - AWANHALEDI 
+- 37 - HIS TIN 
+- 38 - ROSA 
+
+
+####   FLASHBACK
+
+- 39 - END NONSTOP 
+
+
+
+
