@@ -1,0 +1,126 @@
+---
+layout: post
+title: "ALLRIGHT LIVE IN NUGEGODA 2016"
+pageType: audio
+thumbnail: 140x210/ALLNUGE140.jpg
+thumbnailSmall: 80x44/ALLNUGE80.jpg
+summary: ALLRIGHT LIVE IN NUGEGODA 2016
+downloadLink: http://www.mediafire.com/download/d917dmzv3jbu300/ALLRIGHT_LIVE_IN_NUGEGODA_2016.rar
+---
+
+
+{% include album-image.html imgSource ='ALLNUGE500.jpg' %}
+
+### Track list 
+
+####   ALL RIGHT
+
+- 01 - ME SINHALA 
+- 02 - MINISAMAYI 
+- 03 - ADDRESS NA 
+- 04 - OBA KIYANNE 
+- 05 - NEW STYLE NONSTOP 
+- 06 - RAN KENDEN 
+- 07 - ENGLISH SONG 
+- 08 - HINDI SONG 
+- 09 - AMMA 
+- 10 - ENGLISH SONG 
+- 11 - PAPARE NONSTOP 
+- 12 - WEN WENNA NAM 
+- 13 - TEMIL SONG 
+- 14 - DJ NONSTOP 
+- 15 - HINDI NONSTOP 
+- 16 - PAPARE 
+- 17 - JOTHI NONSTOP 
+
+
+####   CHALANI LAKSHIKA
+
+- 18 - NIHANDA GAMANE 
+- 19 - RON SOYA 
+- 20 - HIMA RENU 
+
+
+####   CHALAKA CHAMUPATHI
+
+- 21 - DETHUN WATHAWAK 
+- 22 - ASA RADUNA 
+- 23 - MADU SANDEN 
+- 24 - WALA KULAK 
+
+####   SASHIKA NISANSALA
+
+
+- 25 - OBA ASIPIYA 
+- 26 - MAL SARA 
+- 27 - DANGAKARA
+
+####   WALTER FERNANDO
+
+
+- 28 - PEM LOWA 
+- 29 - HA HA HADAYI 
+- 30 - NELUM MALE 
+
+
+####   SUPRIYA ABESEKARA
+
+
+- 31 - MANDARAME 
+- 32 - RANGANA RAGUM 
+- 33 - WADA MAPPALA 
+- 34 - SUPRIYA NONSTOP 
+
+
+####   ASANKA PRIYAMANTHA
+
+
+- 35 - ADAREYI MAN 2 IN 1 
+- 36 - GOLU DARUWEK 
+- 37 - DASA MASAK 
+
+
+####   ISURU JAYARATNA
+
+
+- 38 - NAMAL PIPILA 
+- 39 - PIUM NEELA 
+- 40 - SIGIRI LANDUNE 
+
+
+####   THEEKSHANA ANURADHA
+
+
+- 41 - PAMA U00 
+- 42 - AYETH HANDANNA 
+- 43 - SAYAM KIRILLI 
+
+
+####   GINGER
+
+
+- 44 - DENGU MADURUWA 
+- 45 - CRICKET 
+- 46 - KAPILLA 
+
+
+####   NIHAL NELSON
+
+- 47 - ORU PADINNA 
+- 48 - GUNE AYYAGE 
+
+
+####   ALLRIGHT
+
+
+- 49 - END NONSTOP 
+
+
+
+
+
+
+
+
+
+
