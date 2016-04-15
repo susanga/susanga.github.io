@@ -1,0 +1,100 @@
+---
+layout: post
+title: "SEEDUWA SAKURA LIVE IN HANWELLA 2016"
+pageType: audio
+thumbnail: 140x210/SEEHAN140.jpg
+thumbnailSmall: 80x44/SEEHAN80.jpg
+summary: SEEDUWA SAKURA LIVE IN HANWELLA 2016
+downloadLink: http://www.mediafire.com/download/2ynnllxb1iyntnn/SEEDUWA_SAKURA_LIVE_IN_HANWELLA_2016.rar
+---
+
+
+{% include album-image.html imgSource ='SEEHAN500.jpg' %}
+
+### Track list 
+
+####   SEEDUWA SAKURA
+
+- 01 - SEEDUWA SAKURA INTRO 
+- 02 - WAYANNO 
+- 03 - ENGLISH SONG 
+- 04 - HIMALETA WADA 
+- 05 - PAVI PALUWE 
+- 06 - PACHA 
+- 07 - SINDU KIYALA 
+- 08 - HINDI SONG 
+- 09 - BIMATA WADIN 
+- 10 - WARADI KARALA 
+- 11 - ENGLISH SONG 
+- 12 - NIL MADIN 
+- 13 - SAYAM DALA 
+- 14 - BINDU BINDU RAN 
+- 15 - DUKA NETHE 
+- 16 - NONSTOP 
+- 17 - NONSTOP 
+- 18 - KIRA 
+- 19 - HINDI NONSTOP 
+- 20 - MAHARAJA MAN 
+
+
+####   SUSUIL FERNANDO
+
+- 21 - MANIKE MAMA 
+- 22 - OBA DAKINA 
+- 23 - KODI GAHA 
+- 24 - MAMA ENNE 
+- 25 - KEKIRI PELENA 
+
+
+####   SHANIKA WANIGASEKARA
+
+
+- 26 - OBA MEWWE 
+- 27 - THIRIKKALEN 
+- 28 - HINDI SONG 
+- 29 - KIRI PATA 
+- 30 - SHANIKA NONSTOP 
+
+
+####  SHEN SING
+
+
+- 31 - API KAURUDA 
+- 32 - ADARE WEDANA 
+- 33 - JAMAICA 
+- 34 - SANWEDANA 
+
+
+####   CHALAKA SOORIYABANDARA
+
+
+- 35 - LAN WENNA 
+- 36 - DUKA NATHI 
+- 37 - PIYAMBA 
+- 38 - ONCHILI 
+
+
+####   SUBANI HARSHANI
+
+
+- 39 - IKI BINDINA 
+- 40 - ADAREN 
+- 41 - EKA ATHMAYAKA 
+- 42 - EKAMA EKA 
+
+
+####   THAMASHA NIRMANI
+
+
+- 43 - NALAWENA 
+
+
+####   MADAWA KARUNANAYAKE
+
+- 44 - ULATH EKAYI 
+
+####   SEEDUWA SAKURA
+
+- 45 - TEMIL SONG 
+- 46 - END NONSTOP  
+
